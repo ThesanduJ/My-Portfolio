@@ -23,7 +23,7 @@ header>nav>a {
     font-optical-sizing: auto;
     font-weight:600;
     font-style: normal;
-    color: white;
+    color: rgba(255, 255, 255, 0.73);
     margin-right: 1vw;
     text-decoration: none;
 }
@@ -35,4 +35,7 @@ header>img{
     bottom: 0;
     margin: auto;
     left: 5vw;
+}
+header>nav>a:hover{
+    color: white;
 }
