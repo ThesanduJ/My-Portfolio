@@ -32,6 +32,8 @@ header>img{
     height: fit-content;
     width: 150px;
     height: 80px;
+    top: 0;
+    bottom: 0;
     margin: auto;
     left: 5vw;
 }
