@@ -28,8 +28,6 @@ header>nav>a {
 }
 header>img{
     position: absolute;
-    width: fit-content;
-    height: fit-content;
     width: 150px;
     height: 80px;
     top: 0;
