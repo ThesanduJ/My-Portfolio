@@ -53,6 +53,7 @@
     font-weight: 400;
     font-style: normal;
     color: white;
+    font-size: 1.2em;
     overflow: hidden;
     white-space: nowrap;
     width: 0;
@@ -71,8 +72,8 @@
 }
 #btnResume{
     position: absolute;
-    width: 9vw;
-    height: 5vh;
+    width: 10vw;
+    height: 6vh;
     color: black;
     top: 70vh;
     left: 11vw;
