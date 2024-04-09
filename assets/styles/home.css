@@ -71,7 +71,7 @@
 }
 #btnResume{
     position: absolute;
-    width: 10vw;
+    width: 9vw;
     height: 5vh;
     color: black;
     top: 70vh;
@@ -85,5 +85,5 @@
     font-weight: 600;
     font-style: normal;
     color: black;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
