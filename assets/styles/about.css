@@ -17,7 +17,7 @@
     width: 38vw;
     height: 50vh;
     margin-left: 12vw;
-    margin-top:  8vh;
+    margin-top:  5vh;
     background-color: rgb(30, 30, 30);
     border-radius: 20px;
     align-content: center;
@@ -26,7 +26,7 @@
     font-size: 18px;
     margin-left: 3vw;
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-style: normal;
 }
 #tools{
@@ -42,7 +42,7 @@
     position: absolute;
     width: 30vw;
     height: 30vh;
-    top: 38vh;
+    top: 35vh;
     right: 12vw;
     border-radius: 20px;
     background-color: rgb(30, 30, 30);
@@ -80,7 +80,7 @@
     height: 23vh;
     background-color: rgb(30, 30, 30);
     right: 12vw;
-    bottom: 5vh;
+    bottom: 6vh;
     border-radius: 20px;
 }
 #viewMore{
