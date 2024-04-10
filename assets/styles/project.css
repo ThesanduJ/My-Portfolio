@@ -13,3 +13,63 @@
     font-style: normal;
     font-size: 2em;
 }
+
+#project-01{
+    position: absolute;
+    width: 31vw;
+    height: 51vh;
+    background-color: black;
+    left: 12vw;
+    border-radius: 30px;
+}
+#project-img01{
+    position: absolute;
+    width: 368px;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:  4vh;
+}
+#project-span01{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: black;
+    bottom: 9vh;
+    font-weight: 500;
+}
+#project-span01>label{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 7px;
+
+}
+#project-span01>div{
+    width: 13vw;
+    height: 2vh;
+    background-color: white;
+    display: inline;
+}
+#project-span01>div:nth-last-child(2),#project-span01>div:nth-last-child(3),#project-span01>div:nth-last-child(4){
+    margin-right: 2vw;
+
+}
+#project-link01{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 4vh;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
