@@ -78,6 +78,7 @@
     top: 70vh;
     left: 11vw;
     border-radius: 8px;
+    border: white solid 1px;
 
 }
 #btnResumeAction{
@@ -87,4 +88,17 @@
     font-style: normal;
     color: black;
     font-size: 1.2em;
+}
+#btnResume:active{
+    position: absolute;
+    width: 9.5vw;
+    height: 5.5vh;
+    color: black;
+    top: 69vh;
+    left: 11vw;
+    border-radius: 8px;
+
+}
+#btnResumeAction:active{
+    font-size: 1.1em;
 }
