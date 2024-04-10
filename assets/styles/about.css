@@ -16,7 +16,7 @@
     color: white;
     width: 38vw;
     height: 50vh;
-    margin-left: 10vw;
+    margin-left: 12vw;
     margin-top:  8vh;
     background-color: rgb(30, 30, 30);
     border-radius: 20px;
@@ -43,7 +43,7 @@
     width: 30vw;
     height: 30vh;
     top: 38vh;
-    right: 10vw;
+    right: 12vw;
     border-radius: 20px;
     background-color: rgb(30, 30, 30);
 }
@@ -79,10 +79,15 @@
     width: 30vw;
     height: 23vh;
     background-color: rgb(30, 30, 30);
-    right: 10vw;
+    right: 12vw;
     bottom: 5vh;
     border-radius: 20px;
 }
 #viewMore{
     margin-left: 6vw;
+    text-decoration: underline solid white 1px;
+}
+#viewMore:hover{
+    color: rgb(8, 119, 233);
+    text-decoration: underline solid rgb(8, 119, 233) 2px;
 }
