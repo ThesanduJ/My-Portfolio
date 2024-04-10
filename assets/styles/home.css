@@ -79,6 +79,7 @@
     left: 11vw;
     border-radius: 8px;
     border: white solid 1px;
+    font-weight: 600;
 
 }
 #btnResumeAction{
@@ -102,3 +103,4 @@
 #btnResumeAction:active{
     font-size: 1.1em;
 }
+
