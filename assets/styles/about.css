@@ -41,7 +41,7 @@
 #pic{
     position: absolute;
     width: 30vw;
-    height: 30vh;
+    height: 25vh;
     top: 35vh;
     right: 12vw;
     border-radius: 20px;
@@ -80,7 +80,7 @@
     height: 23vh;
     background-color: rgb(30, 30, 30);
     right: 12vw;
-    bottom: 6vh;
+    bottom: 12vh;
     border-radius: 20px;
 }
 #viewMore{
