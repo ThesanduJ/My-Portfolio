@@ -50,6 +50,7 @@
     height: 2vh;
     background-color: white;
     display: inline;
+    border-radius: 5px;
 
 }
 #project-span01>div:nth-last-child(2),#project-span01>div:nth-last-child(3),#project-span01>div:nth-last-child(4){
