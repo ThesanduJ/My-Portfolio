@@ -40,7 +40,9 @@
     margin: auto;
     color: black;
     bottom: 9vh;
-
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
 }
 
 #project-span01>div{
