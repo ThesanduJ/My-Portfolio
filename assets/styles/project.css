@@ -40,24 +40,18 @@
     margin: auto;
     color: black;
     bottom: 9vh;
-    font-weight: 500;
-}
-#project-span01>label{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    border-radius: 7px;
 
 }
+
 #project-span01>div{
     width: 13vw;
     height: 2vh;
     background-color: white;
     display: inline;
+
 }
 #project-span01>div:nth-last-child(2),#project-span01>div:nth-last-child(3),#project-span01>div:nth-last-child(4){
-    margin-right: 2vw;
-
+    margin-right: 1.5vw;
 }
 #project-link01{
     position: absolute;
