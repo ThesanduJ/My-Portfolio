@@ -23,13 +23,18 @@
     color: white;
 }
 #grid-con{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 40vh;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 20vw 20vw 20vw;
     padding: 10px;
     column-gap: 80px;
     row-gap: 100px;
-    position: absolute;
-    margin-left: 12vw;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 #assigment>div>div{
     width: 300px;
@@ -38,12 +43,46 @@
     border-radius: 8px;
 }
 #assigment>div>div>label{
-    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
     color: white;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    margin-left: 5.5vw;
+    margin-top: 2.5vh;
 }
+/*#assigment>div>div>.border-1{*/
+/*    position: absolute;*/
+/*    top: 1vh;*/
+/*    left: 1vw;*/
+/*    width: 6vw;*/
+/*    height: 4vh;*/
+/*    background-color: transparent;*/
+/*    border-radius: 8px;*/
+/*    border: 2px solid white;*/
+/*}*/
+/*#assigment>div>div>.border-2{*/
+/*    position: absolute;*/
+/*    top: 1vh;*/
+/*    left: 1vw;*/
+/*    width: 6vw;*/
+/*    height: 4vh;*/
+/*    background-color: transparent;*/
+/*    border-radius: 8px;*/
+/*    border: 2px solid white;*/
+/*}*/
 #assigment>div>div>button{
+    margin-left: 2.3vw;
+    margin-top: 3vh;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 6vw;
+    height: 4vh;
 }
