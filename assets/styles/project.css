@@ -18,15 +18,15 @@
 
 #project-01, #project-02 {
     position: absolute;
-    width: 31vw;
-    height: 51vh;
+    width: 40vw;
+    height: 46vh;
     background-color: black;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
 }
 #project-img01, #project-img02 {
     position: absolute;
-    width: 368px;
+    width: 282px;
     height: fit-content;
     left: 0;
     right: 0;
@@ -42,7 +42,7 @@
     right: 0;
     margin: auto;
     color: black;
-    bottom: 9vh;
+    bottom: 10vh;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -86,13 +86,13 @@
 
 #project-01 {
     position: absolute;
-    left: 15vw;
+    left:8vw;
     top: 41vh;
 }
 
 #project-02 {
     position: absolute;
-    right: 15vw;
+    right: 8vw;
     top: 41vh;
 }
 
@@ -100,15 +100,15 @@
 
 #projects-03 ,#projects-04{
     position: absolute;
-    width: 31vw;
-    height: 63vh;
+    width: 40vw;
+    height: 54vh;
     background-color: #000000;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
 }
 #project-img03 ,#project-img04{
     position: absolute;
-    width: 368px;
+    width: 282px;
     height: fit-content;
     left: 0;
     right: 0;
@@ -166,11 +166,11 @@
 
 #projects-03 {
     position: absolute;
-    left: 15vw;
+    left: 8vw;
     top: 103vh;
 }
 #projects-04 {
     position: absolute;
-    right: 15vw;
+    right: 8vw;
     top: 103vh;
 }
