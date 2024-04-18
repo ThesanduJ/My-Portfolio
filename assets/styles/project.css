@@ -1,6 +1,6 @@
 @media only screen and (min-width:  1024px) {
     #projects {
-        height: 188vh;
+        height: 178vh;
         width: 100%;
         position: relative;
         background-color: rgb(30, 30, 30);
@@ -185,7 +185,7 @@
 /*----------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:  1440px) {
     #projects {
-        height: 178vh;
+        height: 188vh;
         width: 100%;
         position: relative;
         background-color: rgb(30, 30, 30);
