@@ -95,3 +95,102 @@
         height: 4vh;
     }
 }
+
+/*-------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1440px) {
+
+    #assigment {
+        background-image: url("../images/bg.png");
+        width: 100%;
+        height: 137vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 375vh;
+        overflow: hidden;
+    }
+
+    #bgShp {
+        top: 1vh;
+        width: 100%;
+        height: 86vh;
+    }
+
+    #h1-03 {
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2em;
+        color: white;
+    }
+
+    #grid-con {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        top: 33vh;
+        display: grid;
+        grid-template-columns: 20vw 20vw 20vw;
+        padding: 10px;
+        column-gap: 80px;
+        row-gap: 32px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #assigment > div > div {
+        width: 23vw;
+        height: 16vh;
+        background-color: black;
+        border-radius: 8px;
+    }
+
+    #assigment > div > div > label {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        margin-left: 7.5vw;
+        margin-top: 2.5vh;
+    }
+
+    /*#assigment>div>div>.border-1{*/
+    /*    position: absolute;*/
+    /*    top: 1vh;*/
+    /*    left: 1vw;*/
+    /*    width: 6vw;*/
+    /*    height: 4vh;*/
+    /*    background-color: transparent;*/
+    /*    border-radius: 8px;*/
+    /*    border: 2px solid white;*/
+    /*}*/
+    /*#assigment>div>div>.border-2{*/
+    /*    position: absolute;*/
+    /*    top: 1vh;*/
+    /*    left: 1vw;*/
+    /*    width: 6vw;*/
+    /*    height: 4vh;*/
+    /*    background-color: transparent;*/
+    /*    border-radius: 8px;*/
+    /*    border: 2px solid white;*/
+    /*}*/
+    #assigment > div > div > button {
+        margin-left: 2vw;
+        margin-top: 3vh;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 8vw;
+        height: 4vh;
+    }
+}
