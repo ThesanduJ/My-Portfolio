@@ -1,176 +1,185 @@
-#projects {
-    height: 178vh;
-    width: 100%;
-    position: relative;
-    background-color: rgb(30, 30, 30);
-    margin-top: -3vh;
+@media only screen and (min-width:  1024px) {
+    #projects {
+        height: 178vh;
+        width: 100%;
+        position: relative;
+        background-color: rgb(30, 30, 30);
+        margin-top: -3vh;
+    }
+
+    #h1-02 {
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2em;
+        color: white;
+    }
+
+    #project-01, #project-02 {
+        position: absolute;
+        width: 40vw;
+        height: 46vh;
+        background-color: black;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
+    }
+
+    #project-img01, #project-img02 {
+        position: absolute;
+        width: 282px;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 4vh;
+    }
+
+    #project-span01, #project-span02 {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: black;
+        bottom: 10vh;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #project-span01 > div, #project-span02 > div {
+        width: 13vw;
+        height: 2vh;
+        background-color: white;
+        display: inline;
+        border-radius: 5px;
+
+    }
+
+    #project-span01 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
+        margin-right: 1.5vw;
+    }
+
+    #project-span02 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
+        margin-right: 1.5vw;
+    }
+
+    #project-link01, #project-link02 {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 4vh;
+        color: rgba(255, 255, 255, 0.77);
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    #project-link01:hover, #project-link02:hover {
+        color: white;
+    }
+
+    #project-01 {
+        position: absolute;
+        left: 8vw;
+        top: 41vh;
+    }
+
+    #project-02 {
+        position: absolute;
+        right: 8vw;
+        top: 41vh;
+    }
+
+    /*-------------------------------------------project-03------------------------*/
+    #projects-03, #projects-04 {
+        position: absolute;
+        width: 40vw;
+        height: 54vh;
+        background-color: #000000;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
+    }
+
+    #project-img03, #project-img04 {
+        position: absolute;
+        width: 282px;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 4vh;
+    }
+
+    #project-span03, #project-span04 {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: #000000;
+        bottom: 11vh;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #project-span03 > div, #project-span04 > div {
+        width: 13vw;
+        height: 2vh;
+        background-color: white;
+        display: inline;
+        border-radius: 5px;
+
+    }
+
+    #project-span03 > div:nth-last-child(2), #project-span03 > div:nth-last-child(3), #project-span03 > div:nth-last-child(4) {
+        margin-right: 1.5vw;
+    }
+
+    #project-span04 > div:nth-last-child(2), #project-span04 > div:nth-last-child(3), #project-span04 > div:nth-last-child(4) {
+        margin-right: 1.5vw;
+    }
+
+
+    #project-link03, #project-link04 {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 4vh;
+        color: rgba(255, 255, 255, 0.77);
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    #project-link03:hover, #project-link04:hover {
+        color: white;
+    }
+
+    #projects-03 {
+        position: absolute;
+        left: 8vw;
+        top: 103vh;
+    }
+
+    #projects-04 {
+        position: absolute;
+        right: 8vw;
+        top: 103vh;
+    }
 }
 
-#h1-02 {
-    text-align: center;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 2em;
-    color: white;
-}
-
-#project-01, #project-02 {
-    position: absolute;
-    width: 40vw;
-    height: 46vh;
-    background-color: black;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
-}
-#project-img01, #project-img02 {
-    position: absolute;
-    width: 282px;
-    height: fit-content;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 4vh;
-}
-
-#project-span01, #project-span02 {
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    left: 0;
-    right: 0;
-    margin: auto;
-    color: black;
-    bottom: 10vh;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-}
-
-#project-span01 > div, #project-span02 > div {
-    width: 13vw;
-    height: 2vh;
-    background-color: white;
-    display: inline;
-    border-radius: 5px;
-
-}
-
-#project-span01 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
-    margin-right: 1.5vw;
-}
-
-#project-span02 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
-    margin-right: 1.5vw;
-}
-
-#project-link01, #project-link02 {
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 4vh;
-    color: rgba(255, 255, 255, 0.77);
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-#project-link01:hover, #project-link02:hover {
-    color: white;
-}
-
-#project-01 {
-    position: absolute;
-    left:8vw;
-    top: 41vh;
-}
-
-#project-02 {
-    position: absolute;
-    right: 8vw;
-    top: 41vh;
-}
-
-/*-------------------------------------------project-03------------------------*/
-
-#projects-03 ,#projects-04{
-    position: absolute;
-    width: 40vw;
-    height: 54vh;
-    background-color: #000000;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
-}
-#project-img03 ,#project-img04{
-    position: absolute;
-    width: 282px;
-    height: fit-content;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 4vh;
-}
-#project-span03 , #project-span04{
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    left: 0;
-    right: 0;
-    margin: auto;
-    color: #000000;
-    bottom: 11vh;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-}
-#project-span03 > div,#project-span04> div{
-    width: 13vw;
-    height: 2vh;
-    background-color: white;
-    display: inline;
-    border-radius: 5px;
-
-}
-#project-span03 > div:nth-last-child(2), #project-span03 > div:nth-last-child(3), #project-span03 > div:nth-last-child(4) {
-    margin-right: 1.5vw;
-}
-
-#project-span04 > div:nth-last-child(2), #project-span04 > div:nth-last-child(3), #project-span04 > div:nth-last-child(4) {
-    margin-right: 1.5vw;
-}
-
-
-#project-link03,#project-link04{
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 4vh;
-    color: rgba(255, 255, 255, 0.77);
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-#project-link03:hover,#project-link04:hover {
-    color: white;
-}
-
-#projects-03 {
-    position: absolute;
-    left: 8vw;
-    top: 103vh;
-}
-#projects-04 {
-    position: absolute;
-    right: 8vw;
-    top: 103vh;
-}
+/*----------------------------------------------------------------------------------------------------*/
