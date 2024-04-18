@@ -120,3 +120,124 @@
 }
 
 /*-------------------------------------------------------------------------*/
+@media only screen and (min-width:  1440px){
+
+    #About {
+        background-color: black;
+        height: 103vh;
+        width: 100%;
+        position: relative;
+    }
+
+    #h2-01 {
+        text-align: center;
+        margin-top: 14vh;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 2em;
+        font-style: normal;
+    }
+
+    #myDetails {
+        color: white;
+        width: 38vw;
+        height: 50vh;
+        margin-left: 12vw;
+        margin-top: 5vh;
+        background-color: rgb(30, 30, 30);
+        border-radius: 20px;
+        align-content: center;
+    }
+
+    #details {
+        font-size: 17px;
+        margin-left: 2.4vw;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #tools {
+        color: white;
+    }
+
+    #imgTools {
+        color: white;
+    }
+
+    #viewMore {
+        color: white;
+    }
+
+    #pic {
+        position: absolute;
+        width: 30vw;
+        height: 25vh;
+        top: 35vh;
+        right: 12vw;
+        border-radius: 20px;
+        background-color: rgb(30, 30, 30);
+    }
+
+    #myPicture2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 100%;
+    }
+
+    #tools {
+        position: absolute;
+        top: 2vh;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        height: fit-content;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #imgTools {
+        position: absolute;
+        height: fit-content;
+        width: fit-content;
+        top: 8vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #allTools {
+        position: absolute;
+        width: 30vw;
+        height: 23vh;
+        background-color: rgb(30, 30, 30);
+        right: 12vw;
+        bottom: 18vh;
+        border-radius: 20px;
+    }
+
+    #viewMore {
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-decoration: underline solid white 1px;
+        bottom: -31px;
+    }
+
+    #viewMore:hover {
+        color: rgb(8, 119, 233);
+        text-decoration: underline solid rgb(8, 119, 233) 2px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
