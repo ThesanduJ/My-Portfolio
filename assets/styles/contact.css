@@ -1,11 +1,12 @@
 @media only screen and (min-width: 1024px) {
     #contact {
         width: 100%;
-        height: 15vh;
+        height: 10vh;
         position: absolute;
         background-color: black;
         border-top: white solid 2px;
         border-bottom: white solid 2px;
+        bottom: -397.4vh;
     }
 
     #contact > span {
