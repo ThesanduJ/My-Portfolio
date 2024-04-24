@@ -16,13 +16,14 @@
 }
 #skills-01,#skills-02{
     width: 28vw;
-    height: 41vh;
+    height: 83vh;
     background-color:rgb(30, 30, 30) ;
     color: white;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    border-radius: 8px;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
@@ -53,11 +54,44 @@
 /*-----------------------------------------------------------------------------------------------*/
 
 
-#div-01{
+#div-01,#div-02,#div-03,#div-04,#div-05,#div-06{
     margin-left: 3vw;
     width: 20vw;
     height: 3vh;
     background-color:white;
     /*background-color:rgb(151, 71, 255);*/
     border-radius: 7px;
+}
+#div-07,#div-08,#div-09,#div-10,#div-11,#div-12{
+    width: 0;
+    height: 3vh;
+    background-color:rgb(151, 71, 255);;
+    /*background-color:rgb(151, 71, 255);*/
+    border-radius: 7px;
+    animation: skill-01 1.5s ;
+    animation-fill-mode: forwards;
+}
+@keyframes skill-01 {
+    from{
+       width: 0;
+    }
+    to{
+        width: 12vw;
+    }
+}
+#div-13,#div-14,#div-15,#div-16,#div-17,#div-18{
+    width: 0;
+    height: 3vh;
+    background-color: rgb(255, 255, 255);;
+    opacity: 10%;
+    border-radius: 7px;
+    animation: in-skill-01 1.5s linear infinite;
+}
+@keyframes in-skill-01 {
+    from{
+        width: 0;
+    }
+    to{
+        width: 10vw;
+    }
 }
