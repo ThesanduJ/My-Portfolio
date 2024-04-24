@@ -4,7 +4,8 @@ body{
 #skills{
     height: 100vh;
     width: 100%;
-    position: relative;
+    position: absolute;
+    top: 0;
 }
 #mainTopic{
     text-align: center;
@@ -91,6 +92,10 @@ body{
     column-gap: 7vw;
     margin-top: 13vh;
 }
+header>a>img{
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
 
 /*-----------------------------------------------------------------------------------------------*/
 
@@ -101,7 +106,7 @@ footer {
     height: 30vh;
     background-color: black;
     position: absolute;
-    bottom: -61.4vh;
+    bottom: -76.4vh;
 }
 
 footer > nav {
@@ -179,7 +184,7 @@ footer > span > span > a > img {
     background-color: black;
     border-top: white solid 2px;
     border-bottom: white solid 2px;
-    bottom: -31.4vh;
+    bottom: -46.4vh;
 }
 
 #contact > span {
