@@ -24,3 +24,40 @@
     font-weight: 500;
     font-style: normal;
 }
+
+/*-------------------------------------------------------------------------------------------------*/
+/*#skills-01>#topic-01{*/
+/*    font-size: 1.3em;*/
+/*    text-align: center;*/
+/*    text-decoration: underline;*/
+/*    text-underline-offset: 1vh;   !*gap between text and underline*!*/
+/*    text-decoration-thickness:1vh;*/
+/*}*/
+/*#topic-01 {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    text-align: center;*/
+/*}*/
+/*#topic-01::after {*/
+/*    width: 5vw;*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: -3px; !* Adjust as needed *!*/
+/*    height: 3px; !* Thickness of the underline *!*/
+/*    background: currentColor; !* Or any color *!*/
+/*    border-radius: 2px; !* This creates the rounded effect *!*/
+/*}*/
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+#div-01{
+    margin-left: 3vw;
+    width: 20vw;
+    height: 3vh;
+    background-color:white;
+    /*background-color:rgb(151, 71, 255);*/
+    border-radius: 7px;
+}
