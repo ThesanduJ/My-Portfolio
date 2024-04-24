@@ -44,14 +44,12 @@ body{
     width: 20vw;
     height: 3vh;
     background-color:white;
-    /*background-color:rgb(151, 71, 255);*/
     border-radius: 7px;
 }
 #div-07,#div-08,#div-09,#div-10,#div-11,#div-12{
     width: 0;
     height: 3vh;
-    background-color:rgb(151, 71, 255);;
-    /*background-color:rgb(151, 71, 255);*/
+    background-color:rgb(151, 71, 255);
     border-radius: 7px;
     animation: skill-01 1.5s ;
     animation-fill-mode: forwards;
@@ -190,7 +188,6 @@ footer > span > span > a > img {
     position: absolute;
     left: 0;
     right: 0;
-    margin: auto;
     margin: auto;
     top: 0;
     bottom: 0;
