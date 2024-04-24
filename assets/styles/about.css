@@ -286,4 +286,26 @@
         border-radius: 100%;
         background-color: white;
     }
+    #profile-pic{
+        filter: saturate(0);
+        width: 8vw;
+        height: 23vh;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        right: 0;
+    }
+    #profile-pic:hover{
+        width: 8vw;
+        height: 23vh;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        right: 0;
+        filter: saturate(100%);
+    }
 }
