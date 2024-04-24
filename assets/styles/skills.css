@@ -1,5 +1,7 @@
+body{
+    background-color: black;
+}
 #skills{
-    /*background-color: black;*/
     height: 100vh;
     width: 100%;
     position: relative;
