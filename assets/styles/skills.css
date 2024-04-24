@@ -25,34 +25,17 @@
     font-style: normal;
     border-radius: 8px;
 }
+#skills-01>h4{
+    margin-left: 3vw;
+}
 
-/*-------------------------------------------------------------------------------------------------*/
-/*#skills-01>#topic-01{*/
-/*    font-size: 1.3em;*/
-/*    text-align: center;*/
-/*    text-decoration: underline;*/
-/*    text-underline-offset: 1vh;   !*gap between text and underline*!*/
-/*    text-decoration-thickness:1vh;*/
-/*}*/
-/*#topic-01 {*/
-/*    position: relative;*/
-/*    display: inline-block;*/
-/*    text-align: center;*/
-/*}*/
-/*#topic-01::after {*/
-/*    width: 5vw;*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: -3px; !* Adjust as needed *!*/
-/*    height: 3px; !* Thickness of the underline *!*/
-/*    background: currentColor; !* Or any color *!*/
-/*    border-radius: 2px; !* This creates the rounded effect *!*/
-/*}*/
-
-/*-----------------------------------------------------------------------------------------------*/
-
+#skills-01>#topic-01,#skills-02>#topic-02{
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 1vh;   /*gap between text and underline*/
+    text-decoration-thickness:1vh;
+}
 
 #div-01,#div-02,#div-03,#div-04,#div-05,#div-06{
     margin-left: 3vw;
@@ -95,3 +78,7 @@
         width: 10vw;
     }
 }
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
