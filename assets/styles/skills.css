@@ -78,7 +78,20 @@
         width: 10vw;
     }
 }
+#grid{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 7vw;
+}
 
-/*-----------------------------------------------------------------------------------------------*/
+
+
 
 
