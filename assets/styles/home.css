@@ -54,7 +54,9 @@
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
-        color: white;
+        background: -webkit-linear-gradient(#eee, #6b6b6b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 2em;
     }
 
