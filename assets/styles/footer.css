@@ -65,6 +65,12 @@
         margin-left: 3vw;
         text-decoration: none;
     }
+    footer > span > span > a > img {
+        filter: brightness(70%);
+    }
+    footer > span > span > a > img:hover {
+        filter: brightness(100%);
+    }
 }
 
 /*----------------------------------------------------------------------------*/
@@ -139,5 +145,9 @@
     footer > span > span > a > img {
         width: 43px;
         height: 43px;
+        filter: brightness(70%);
+    }
+    footer > span > span > a > img:hover {
+        filter: brightness(100%);
     }
 }
