@@ -101,6 +101,39 @@ header>a>img:hover{
     filter: brightness(100%);
 }
 
+#div-19,#div-22,#div-25,#div-28{
+    width: 11vw;
+    height: 22vh;
+    background-color: white;
+    border-radius: 100%;
+    border-style: solid;
+    border-top-color: rgb(151, 71, 255);
+    border-left-color: rgb(151, 71, 255);
+    border-width: 2.6vh;
+    animation: cir-rotate 1.5s ;
+}
+@keyframes cir-rotate {
+    from{
+        rotate: 0;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+#grid-sub{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4vw;
+    row-gap: 4vh;
+    margin-top: 6vh;
+ }
+
 /*-----------------------------------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -175,6 +208,10 @@ footer > nav > a:hover {
 footer > span > span > a > img {
     width: 43px;
     height: 43px;
+    filter: brightness(70%);
+}
+footer > span > span > a > img:hover {
+    filter: brightness(100%);
 }
 
 
