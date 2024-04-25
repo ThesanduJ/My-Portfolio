@@ -18,6 +18,7 @@ body{
     font-style: normal;
 }
 #skills-01,#skills-02{
+    position: relative;
     width: 35vw;
     height: 86vh;
     background-color:rgb(30, 30, 30) ;
@@ -67,7 +68,7 @@ body{
     width: 0;
     height: 3vh;
     background-color: rgb(255, 255, 255);;
-    opacity: 10%;
+    opacity: 16%;
     border-radius: 7px;
     animation: in-skill-01 1.5s linear infinite;
 }
@@ -102,9 +103,9 @@ header>a>img:hover{
 }
 
 #div-19,#div-22,#div-25,#div-28{
-    width: 11vw;
-    height: 22vh;
-    background-color: white;
+    position: relative;
+    width: 140px;
+    height: 140px;
     border-radius: 100%;
     border-style: solid;
     border-top-color: rgb(151, 71, 255);
@@ -120,11 +121,23 @@ header>a>img:hover{
         rotate: 360deg;
     }
 }
+#div-20,#div-23,#div-26,#div-29{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    border-radius: 100%;
+}
 #grid-sub{
     width: fit-content;
     height: fit-content;
     position: absolute;
     right: 0;
+    left: 0;
     margin: auto;
     display: grid;
     grid-template-rows: 1fr;
@@ -133,7 +146,6 @@ header>a>img:hover{
     row-gap: 4vh;
     margin-top: 6vh;
  }
-
 /*-----------------------------------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------------------------*/
