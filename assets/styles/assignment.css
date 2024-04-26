@@ -1,9 +1,9 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px){
 
     #assigment {
         background-image: url("../images/bg.png");
         width: 100%;
-        height: 112vh;
+        height: 180vh;
         /*background-size: contain;*/
         background-repeat: no-repeat;
         position: absolute;
@@ -28,9 +28,9 @@
         height: fit-content;
         top: 40vh;
         display: grid;
-        grid-template-columns: 20vw 20vw 20vw;
+        grid-template-columns: 20vw 20vw;
         padding: 10px;
-        column-gap: 80px;
+        column-gap: 17vw;
         row-gap: 32px;
         left: 0;
         right: 0;
@@ -38,7 +38,7 @@
     }
 
     #assigment > div > div {
-        width: 23vw;
+        width: 34vw;
         height: 17vh;
         background-color: black;
         border-radius: 8px;
@@ -53,11 +53,19 @@
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
-        margin-left: 5.5vw;
-        margin-top: 2.5vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 2vh;
     }
-    #assigment > div > div > button {
-        margin-left: 2vw;
+    #assigment > div > div>div{
+        position: relative;
+    }
+    #assigment > div > div{
+        position: relative;
+    }
+    #assigment > div > div >div> button {
+        /*margin-left: 2vw;*/
         margin-top: 3vh;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
@@ -65,24 +73,35 @@
         font-style: normal;
         cursor: pointer;
         border-radius: 8px;
-        width: 8vw;
+        width: 12vw;
         height: 4vh;
     }
+    .button-set{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
 }
-
 /*-------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 1440px) {
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
 
     #assigment {
         background-image: url("../images/bg.png");
         width: 100%;
-        height: 137vh;
+        height: 180vh;
         /*background-size: contain;*/
         background-repeat: no-repeat;
         position: absolute;
         top: 375vh;
         overflow: hidden;
     }
+
 
     #h1-03 {
         text-align: center;
@@ -102,7 +121,7 @@
         display: grid;
         grid-template-columns: 20vw 20vw 20vw;
         padding: 10px;
-        column-gap: 80px;
+        column-gap: 11vw;
         row-gap: 32px;
         left: 0;
         right: 0;
@@ -110,8 +129,8 @@
     }
 
     #assigment > div > div {
-        width: 23vw;
-        height: 16vh;
+        width: 29vw;
+        height: 17vh;
         background-color: black;
         border-radius: 8px;
     }
@@ -125,11 +144,19 @@
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
-        margin-left: 7.5vw;
-        margin-top: 2.5vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 2vh;
     }
-    #assigment > div > div > button {
-        margin-left: 2vw;
+    #assigment > div > div>div{
+        position: relative;
+    }
+    #assigment > div > div{
+        position: relative;
+    }
+    #assigment > div > div >div> button {
+        /*margin-left: 2vw;*/
         margin-top: 3vh;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
@@ -137,7 +164,108 @@
         font-style: normal;
         cursor: pointer;
         border-radius: 8px;
-        width: 8vw;
+        width: 12vw;
         height: 4vh;
+    }
+    .button-set{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1440px) {
+
+    #assigment {
+        background-image: url("../images/bg.png");
+        width: 100%;
+        height: 180vh;
+        /*background-size: contain;*/
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 375vh;
+        overflow: hidden;
+    }
+
+
+    #h1-03 {
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2em;
+        color: white;
+    }
+
+    #grid-con {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        top: 40vh;
+        display: grid;
+        grid-template-columns: 20vw 20vw 20vw;
+        padding: 10px;
+        column-gap: 11vw;
+        row-gap: 32px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #assigment > div > div {
+        width: 29vw;
+        height: 17vh;
+        background-color: black;
+        border-radius: 8px;
+    }
+
+    #assigment > div > div > label {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 2vh;
+    }
+    #assigment > div > div>div{
+        position: relative;
+    }
+    #assigment > div > div{
+        position: relative;
+    }
+    #assigment > div > div >div> button {
+        /*margin-left: 2vw;*/
+        margin-top: 3vh;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 12vw;
+        height: 4vh;
+    }
+    .button-set{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
     }
 }

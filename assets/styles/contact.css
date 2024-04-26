@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     #contact {
         width: 100%;
         height: 10vh;
@@ -6,7 +6,60 @@
         background-color: black;
         border-top: white solid 2px;
         border-bottom: white solid 2px;
-        bottom: -397.4vh;
+        bottom: -465.4vh;
+    }
+
+    #contact > span {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+
+    #contact > span > label {
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+
+    }
+
+    #contact > span > button {
+        width: 25vw;
+        height: 5vh;
+        background-color: rgb(36, 36, 36);
+        border-radius: 7px;
+        border: white 2px solid;
+
+    }
+
+    #contact > span > button > a {
+        text-decoration: none;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    #contact {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+        background-color: black;
+        border-top: white solid 2px;
+        border-bottom: white solid 2px;
+        bottom: -425.4vh;
     }
 
     #contact > span {
@@ -60,7 +113,7 @@
         border-top: white solid 2px;
         border-bottom: white solid 2px;
         margin: auto;
-        bottom:-398.2vh;
+        bottom:-425.2vh;
     }
 
     #contact > span {
@@ -69,7 +122,6 @@
         position: absolute;
         left: 0;
         right: 0;
-        margin: auto;
         margin: auto;
         top: 0;
         bottom: 0;
