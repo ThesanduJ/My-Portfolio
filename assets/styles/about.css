@@ -1,7 +1,7 @@
 @media only screen and (min-width:  768px) and (max-width: 1023px) {
     #About {
         background-color: black;
-        height: 100vh;
+        height: 133vh;
         width: 100%;
         position: relative;
     }
@@ -18,11 +18,14 @@
     }
 
     #myDetails {
+        position: absolute;
         color: white;
-        width: 38vw;
-        height: 50vh;
-        margin-left: 12vw;
-        margin-top: 5vh;
+        width: 68vw;
+        height: 31vh;
+        left: 0;
+        right: 0;
+        top: 60vh;
+        margin: auto;
         background-color: rgb(30, 30, 30);
         border-radius: 20px;
         align-content: center;
@@ -50,10 +53,12 @@
 
     #pic {
         position: absolute;
-        width: 30vw;
+        width: 43vw;
         height: 25vh;
-        top: 35vh;
-        right: 12vw;
+        top: 32vh;
+        right: 0;
+        left: 0;
+        margin: auto;
         border-radius: 20px;
         background-color: rgb(30, 30, 30);
     }
@@ -90,10 +95,12 @@
 
     #allTools {
         position: absolute;
-        width: 30vw;
+        width: 68vw;
         height: 23vh;
         background-color: rgb(30, 30, 30);
-        right: 12vw;
+        left: 0;
+        right: 0;
+        margin: auto;
         bottom: 15vh;
         border-radius: 20px;
     }
@@ -115,9 +122,19 @@
         color: rgb(8, 119, 233);
         text-decoration: underline solid rgb(8, 119, 233) 2px;
     }
+    #allTools>span{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+    }
     img{
         width: 46px;
         height: 46px;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
     }
     #circle{
         position: absolute;
