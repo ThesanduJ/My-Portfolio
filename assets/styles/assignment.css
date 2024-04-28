@@ -119,9 +119,9 @@
         height: fit-content;
         top: 40vh;
         display: grid;
-        grid-template-columns: 20vw 20vw 20vw;
+        grid-template-columns: 29vw 29vw 29vw;
         padding: 10px;
-        column-gap: 11vw;
+        column-gap: 2vw;
         row-gap: 32px;
         left: 0;
         right: 0;
@@ -210,9 +210,9 @@
         height: fit-content;
         top: 40vh;
         display: grid;
-        grid-template-columns: 20vw 20vw 20vw;
+        grid-template-columns: 29vw 29vw 29vw;
         padding: 10px;
-        column-gap: 11vw;
+        column-gap: 2vw;
         row-gap: 32px;
         left: 0;
         right: 0;
