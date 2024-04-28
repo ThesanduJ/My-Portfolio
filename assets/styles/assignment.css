@@ -28,7 +28,7 @@
         height: fit-content;
         top: 40vh;
         display: grid;
-        grid-template-columns: 20vw 20vw;
+        grid-template-columns: 34vw 34vw;
         padding: 10px;
         column-gap: 17vw;
         row-gap: 32px;
