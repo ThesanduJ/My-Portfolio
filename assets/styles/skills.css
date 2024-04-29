@@ -1,3 +1,588 @@
+@media only screen and (min-width:  768px) and (max-width: 1023px) {
+    body {
+        background-color: black;
+    }
+
+    #skills {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 10vh;
+    }
+
+    #mainTopic {
+        text-align: center;
+        margin-top: 8vh;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 2.5em;
+        font-style: normal;
+    }
+
+    #skills-01, #skills-02 {
+        position: relative;
+        width: 65vw;
+        height: 93vh;
+        background-color: rgb(30, 30, 30);
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        border-radius: 16px;
+    }
+
+    #skills-01 > h4 {
+        margin-left: 3vw;
+    }
+
+    #skills-01 > #topic-01, #skills-02 > #topic-02 {
+        font-size: 1.3em;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 1vh; /*gap between text and underline*/
+        text-decoration-thickness: 1vh;
+    }
+
+    #div-01, #div-02, #div-03, #div-04, #div-05, #div-06 {
+        margin-left: 3vw;
+        width: 55vw;
+        height: 4vh;
+        background-color: white;
+        border-radius: 7px;
+    }
+
+    #div-07, #div-08, #div-09, #div-10, #div-11, #div-12 {
+        width: 0;
+        height: 4vh;
+        background-color: rgb(151, 71, 255);
+        border-radius: 7px;
+        animation: skill-01 1.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes skill-01 {
+        from {
+            width: 0;
+        }
+        to {
+            width: 30vw;
+        }
+    }
+    #div-13, #div-14, #div-15, #div-16, #div-17, #div-18 {
+        width: 0;
+        height: 4vh;
+        background-color: rgb(255, 255, 255);;
+        opacity: 16%;
+        border-radius: 7px;
+        animation: in-skill-01 1.5s linear infinite;
+    }
+
+    @keyframes in-skill-01 {
+        from {
+            width: 0;
+        }
+        to {
+            width: 30vw;
+        }
+    }
+    #grid {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        column-gap: 7vw;
+        row-gap: 6vh;
+        margin-top: 13vh;
+    }
+
+    header > a > img {
+        margin-top: 4vh;
+        margin-left: 3vw;
+        filter: brightness(50%);
+    }
+
+    header > a > img:hover {
+        filter: brightness(100%);
+    }
+
+    #div-19, #div-22, #div-25, #div-28 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border-style: solid;
+        border-top-color: rgb(151, 71, 255);
+        border-left-color: rgb(151, 71, 255);
+        border-width: 2.6vh;
+        animation: cir-rotate 1.5s;
+    }
+
+    @keyframes cir-rotate {
+        from {
+            rotate: 0;
+        }
+        to {
+            rotate: 360deg;
+        }
+    }
+    #div-20, #div-23, #div-26, #div-29 {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        border-radius: 100%;
+    }
+
+    #grid-sub {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4vw;
+        row-gap: 4vh;
+        margin-top: 6vh;
+    }
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    footer {
+        width: 100%;
+        height: 30vh;
+        background-color: black;
+        position: absolute;
+        bottom: -181.4vh;
+    }
+
+    footer > nav {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 4vh;
+    }
+
+    footer > nav > a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 2vw;
+    }
+
+    footer > p {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 3vh;
+    }
+
+    footer > span > span > a {
+        text-decoration: none;
+    }
+
+    footer > nav > a:hover {
+        color: white;
+    }
+
+    #span-group {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        margin-top: 4vh;
+        text-decoration: none;
+    }
+
+    #span-group > span {
+        margin-left: 3vw;
+        text-decoration: none;
+    }
+
+    footer > span > span > a > img {
+        width: 43px;
+        height: 43px;
+        filter: brightness(70%);
+    }
+
+    footer > span > span > a > img:hover {
+        filter: brightness(100%);
+    }
+
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    #contact {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+        background-color: black;
+        border-top: white solid 2px;
+        border-bottom: white solid 2px;
+        bottom: -151.4vh;
+    }
+
+    #contact > span {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+
+    #contact > span > label {
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+
+    }
+
+    #contact > span > button {
+        width: 25vw;
+        height: 5vh;
+        background-color: rgb(36, 36, 36);
+        border-radius: 7px;
+        border: white 2px solid;
+
+    }
+
+    #contact > span > button > a {
+        text-decoration: none;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+}@media only screen and (min-width:  1024px) and (max-width: 1439px) {
+    body {
+        background-color: black;
+    }
+
+    #skills {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 10vh;
+    }
+
+    #mainTopic {
+        text-align: center;
+        margin-top: 8vh;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 2.5em;
+        font-style: normal;
+    }
+
+    #skills-01, #skills-02 {
+        position: relative;
+        width: 35vw;
+        height: 86vh;
+        background-color: rgb(30, 30, 30);
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        border-radius: 16px;
+    }
+
+    #skills-01 > h4 {
+        margin-left: 3vw;
+    }
+
+    #skills-01 > #topic-01, #skills-02 > #topic-02 {
+        font-size: 1.3em;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 1vh; /*gap between text and underline*/
+        text-decoration-thickness: 1vh;
+    }
+
+    #div-01, #div-02, #div-03, #div-04, #div-05, #div-06 {
+        margin-left: 3vw;
+        width: 26vw;
+        height: 3vh;
+        background-color: white;
+        border-radius: 7px;
+    }
+
+    #div-07, #div-08, #div-09, #div-10, #div-11, #div-12 {
+        width: 0;
+        height: 3vh;
+        background-color: rgb(151, 71, 255);
+        border-radius: 7px;
+        animation: skill-01 1.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes skill-01 {
+        from {
+            width: 0;
+        }
+        to {
+            width: 15vw;
+        }
+    }
+    #div-13, #div-14, #div-15, #div-16, #div-17, #div-18 {
+        width: 0;
+        height: 3vh;
+        background-color: rgb(255, 255, 255);;
+        opacity: 16%;
+        border-radius: 7px;
+        animation: in-skill-01 1.5s linear infinite;
+    }
+
+    @keyframes in-skill-01 {
+        from {
+            width: 0;
+        }
+        to {
+            width: 15vw;
+        }
+    }
+    #grid {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 7vw;
+        margin-top: 13vh;
+    }
+
+    header > a > img {
+        margin-top: 4vh;
+        margin-left: 3vw;
+        filter: brightness(50%);
+    }
+
+    header > a > img:hover {
+        filter: brightness(100%);
+    }
+
+    #div-19, #div-22, #div-25, #div-28 {
+        position: relative;
+        width: 110px;
+        height: 110px;
+        border-radius: 100%;
+        border-style: solid;
+        border-top-color: rgb(151, 71, 255);
+        border-left-color: rgb(151, 71, 255);
+        border-width: 2.6vh;
+        animation: cir-rotate 1.5s;
+    }
+
+    @keyframes cir-rotate {
+        from {
+            rotate: 0;
+        }
+        to {
+            rotate: 360deg;
+        }
+    }
+    #div-20, #div-23, #div-26, #div-29 {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 110px;
+        height: 110px;
+        background-color: black;
+        border-radius: 100%;
+    }
+
+    #grid-sub {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4vw;
+        row-gap: 4vh;
+        margin-top: 6vh;
+    }
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    footer {
+        width: 100%;
+        height: 30vh;
+        background-color: black;
+        position: absolute;
+        bottom: -76.4vh;
+    }
+
+    footer > nav {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 4vh;
+    }
+
+    footer > nav > a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 2vw;
+    }
+
+    footer > p {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 3vh;
+    }
+
+    footer > span > span > a {
+        text-decoration: none;
+    }
+
+    footer > nav > a:hover {
+        color: white;
+    }
+
+    #span-group {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        margin-top: 4vh;
+        text-decoration: none;
+    }
+
+    #span-group > span {
+        margin-left: 3vw;
+        text-decoration: none;
+    }
+
+    footer > span > span > a > img {
+        width: 43px;
+        height: 43px;
+        filter: brightness(70%);
+    }
+
+    footer > span > span > a > img:hover {
+        filter: brightness(100%);
+    }
+
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    #contact {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+        background-color: black;
+        border-top: white solid 2px;
+        border-bottom: white solid 2px;
+        bottom: -46.4vh;
+    }
+
+    #contact > span {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+
+    #contact > span > label {
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+
+    }
+
+    #contact > span > button {
+        width: 25vw;
+        height: 5vh;
+        background-color: rgb(36, 36, 36);
+        border-radius: 7px;
+        border: white 2px solid;
+
+    }
+
+    #contact > span > button > a {
+        text-decoration: none;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
 @media only screen and (min-width:  1024px) and (max-width: 1439px) {
     body {
         background-color: black;
