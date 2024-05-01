@@ -3,11 +3,12 @@
     #assigment {
         background-image: url("../images/bg.png");
         width: 100%;
-        height: 180vh;
+        height:  1307.2px;
         /*background-size: contain;*/
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         position: absolute;
-        top: 408vh;
+        top: 2976.52px;
         overflow: hidden;
     }
 
@@ -26,11 +27,11 @@
         position: absolute;
         width: fit-content;
         height: fit-content;
-        top: 40vh;
+        top:  290.6px;
         display: grid;
-        grid-template-columns: 34vw 34vw;
+        grid-template-columns: 320.96px 320.96px;
         padding: 10px;
-        column-gap: 17vw;
+        column-gap: 57.86px;
         row-gap: 32px;
         left: 0;
         right: 0;
@@ -38,8 +39,8 @@
     }
 
     #assigment > div > div {
-        width: 34vw;
-        height: 17vh;
+        width: 320.96px;
+        height: 133.86px;
         background-color: black;
         border-radius: 8px;
     }
@@ -56,7 +57,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        top: 2vh;
+        top: 18.88px;
     }
     #assigment > div > div>div{
         position: relative;
@@ -66,15 +67,15 @@
     }
     #assigment > div > div >div> button {
         /*margin-left: 2vw;*/
-        margin-top: 3vh;
+        margin-top: 28.32px;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
         cursor: pointer;
         border-radius: 8px;
-        width: 12vw;
-        height: 4vh;
+        width: 114.96px;
+        height: 31.76px;
     }
     .button-set{
         position: absolute;
@@ -94,11 +95,12 @@
     #assigment {
         background-image: url("../images/bg.png");
         width: 100%;
-        height: 180vh;
+        height:1289.2px;
         /*background-size: contain;*/
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         position: absolute;
-        top: 375vh;
+        top: 2763px;
         overflow: hidden;
     }
 
@@ -117,11 +119,11 @@
         position: absolute;
         width: fit-content;
         height: fit-content;
-        top: 40vh;
+        top: 280.6px;
         display: grid;
-        grid-template-columns: 29vw 29vw 29vw;
+        grid-template-columns: 277.82px 277.82px 277.82px;
         padding: 10px;
-        column-gap: 2vw;
+        column-gap: 19.16px;
         row-gap: 32px;
         left: 0;
         right: 0;
@@ -129,8 +131,8 @@
     }
 
     #assigment > div > div {
-        width: 29vw;
-        height: 17vh;
+        width:  277.82px;
+        height: 116.48px;
         background-color: black;
         border-radius: 8px;
     }
@@ -147,7 +149,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        top: 2vh;
+        top: 18.88px;
     }
     #assigment > div > div>div{
         position: relative;
@@ -157,15 +159,15 @@
     }
     #assigment > div > div >div> button {
         /*margin-left: 2vw;*/
-        margin-top: 3vh;
+        margin-top: 28.32px;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
         cursor: pointer;
         border-radius: 8px;
-        width: 12vw;
-        height: 4vh;
+        width: 114.96px;
+        height:  32.76px;
     }
     .button-set{
         position: absolute;
@@ -185,11 +187,12 @@
     #assigment {
         background-image: url("../images/bg.png");
         width: 100%;
-        height: 180vh;
+        height: 1289.2px;
         /*background-size: contain;*/
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         position: absolute;
-        top: 375vh;
+        top: 2763px;
         overflow: hidden;
     }
 
@@ -208,11 +211,11 @@
         position: absolute;
         width: fit-content;
         height: fit-content;
-        top: 40vh;
+        top: 306.6px;
         display: grid;
-        grid-template-columns: 29vw 29vw 29vw;
+        grid-template-columns:370.82px 370.82px 370.82px;
         padding: 10px;
-        column-gap: 2vw;
+        column-gap: 19.16px;
         row-gap: 32px;
         left: 0;
         right: 0;
@@ -220,8 +223,8 @@
     }
 
     #assigment > div > div {
-        width: 29vw;
-        height: 17vh;
+        width: 370.82px;
+        height: 132.48px;
         background-color: black;
         border-radius: 8px;
     }
@@ -238,7 +241,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        top: 2vh;
+        top:  18.88px;
     }
     #assigment > div > div>div{
         position: relative;
@@ -248,15 +251,15 @@
     }
     #assigment > div > div >div> button {
         /*margin-left: 2vw;*/
-        margin-top: 3vh;
+        margin-top: 28.32px;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
         cursor: pointer;
         border-radius: 8px;
-        width: 12vw;
-        height: 4vh;
+        width: 114.96px;
+        height: 34.76px;
     }
     .button-set{
         position: absolute;
