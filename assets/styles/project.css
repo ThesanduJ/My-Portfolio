@@ -16,11 +16,12 @@
         font-size: 2em;
         color: white;
     }
-    #grid{
+
+    #grid {
         position: absolute;
         width: fit-content;
         height: fit-content;
-        top:  266.6px;
+        top: 266.6px;
         display: grid;
         grid-template-columns: 325.72px 325.72px;
         padding: 10px;
@@ -30,23 +31,26 @@
         right: 0;
         margin: auto;
     }
-    #project-01,#project-02{
+
+    #project-01, #project-02 {
         width: 325.72px;
-        height:285.72px;
+        height: 285.72px;
         background-color: black;
         border-radius: 8px;
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
     }
-    #project-03,#project-04{
-        width:  325.72px;
-        height:315.48px;
+
+    #project-03, #project-04 {
+        width: 325.72px;
+        height: 315.48px;
         background-color: black;
         border-radius: 8px;
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
     }
-    div>a{
+
+    div > a {
         color: white;
         text-decoration: none;
         font-family: "Roboto", sans-serif;
@@ -63,10 +67,12 @@
         text-align: center;
         bottom: 47.2px;
     }
-    a:hover{
-        filter:brightness(100%);
+
+    a:hover {
+        filter: brightness(100%);
     }
-    #img-01,#img-02{
+
+    #img-01, #img-02 {
         width: 228px;
         height: fit-content;
         left: 0;
@@ -75,7 +81,8 @@
         position: absolute;
         top: 28.32px;
     }
-    #img-03,#img-04{
+
+    #img-03, #img-04 {
         width: 228px;
         height: fit-content;
         left: 0;
@@ -106,13 +113,14 @@
         font-size: 2em;
         color: white;
     }
-    #grid{
+
+    #grid {
         position: absolute;
         width: fit-content;
         height: fit-content;
-        top:  266.6px;
+        top: 266.6px;
         display: grid;
-        grid-template-columns: 325.72px 325.72px;
+        grid-template-columns: 344.72px 344.72px;
         padding: 10px;
         column-gap: 91.96px;
         row-gap: 75px;
@@ -120,23 +128,26 @@
         right: 0;
         margin: auto;
     }
-    #project-01,#project-02{
+
+    #project-01, #project-02 {
         width: 344.72px;
-        height:297.72px;
+        height: 297.72px;
         background-color: black;
         border-radius: 8px;
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
     }
-    #project-03,#project-04{
-        width:  344.72px;
-        height:315.48px;
+
+    #project-03, #project-04 {
+        width: 344.72px;
+        height: 315.48px;
         background-color: black;
         border-radius: 8px;
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
     }
-    div>a{
+
+    div > a {
         color: white;
         text-decoration: none;
         font-family: "Roboto", sans-serif;
@@ -153,10 +164,12 @@
         text-align: center;
         bottom: 47.2px;
     }
-    a:hover{
-        filter:brightness(100%);
+
+    a:hover {
+        filter: brightness(100%);
     }
-    #img-01,#img-02{
+
+    #img-01, #img-02 {
         width: 228px;
         height: fit-content;
         left: 0;
@@ -165,8 +178,106 @@
         position: absolute;
         top: 28.32px;
     }
-    #img-03,#img-04{
+
+    #img-03, #img-04 {
         width: 228px;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+        top: 28.32px;
+    }
+}
+
+/*---------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1440px) {
+
+    #projects {
+        position: absolute;
+        background-color: rgb(30, 30, 30);
+        width: 100%;
+        height: 1061px;
+    }
+
+    #projects > h2 {
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2em;
+        color: white;
+    }
+
+    #grid {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        top: 266.6px;
+        display: grid;
+        grid-template-columns: 398.72px 398.72px;
+        padding: 10px;
+        column-gap: 111.96px;
+        row-gap: 75px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #project-01, #project-02 {
+        width: 398.72px;
+        height: 297.72px;
+        background-color: black;
+        border-radius: 8px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
+    }
+
+    #project-03, #project-04 {
+        width: 398.72px;
+        height: 348.48px;
+        background-color: black;
+        border-radius: 8px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
+    }
+
+    div > a {
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-transform: uppercase;
+        filter: brightness(50%);
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        bottom: 47.2px;
+    }
+
+    a:hover {
+        filter: brightness(100%);
+    }
+
+    #img-01, #img-02 {
+        width: 275px;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+        top: 28.32px;
+    }
+
+    #img-03, #img-04 {
+        width: 275px;
         height: fit-content;
         left: 0;
         right: 0;
