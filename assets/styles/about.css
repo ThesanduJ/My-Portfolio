@@ -1,14 +1,14 @@
 @media only screen and (min-width:  768px) and (max-width: 1023px) {
     #About {
         background-color: black;
-        height: 133vh;
+        height: 1255.52px;
         width: 100%;
         position: relative;
     }
 
     #h2-01 {
         text-align: center;
-        margin-top: 14vh;
+        margin-top: 132.16px;
         color: white;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
@@ -20,11 +20,11 @@
     #myDetails {
         position: absolute;
         color: white;
-        width: 68vw;
-        height: 31vh;
+        width:  651.44px;
+        height: 292.64px;
         left: 0;
         right: 0;
-        top: 60vh;
+        top: 566.4px;
         margin: auto;
         background-color: rgb(30, 30, 30);
         border-radius: 20px;
@@ -32,8 +32,8 @@
     }
 
     #details {
-        font-size: 1.8vw;
-        margin-left: 2.2vw;
+        font-size: 17.244px;
+        margin-left: 21.076000000000004px;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -53,9 +53,9 @@
 
     #pic {
         position: absolute;
-        width: 43vw;
-        height: 25vh;
-        top: 32vh;
+        width: 411.94px;
+        height: 236px;
+        top: 302.08px;
         right: 0;
         left: 0;
         margin: auto;
@@ -72,7 +72,7 @@
 
     #tools {
         position: absolute;
-        top: 2vh;
+        top: 18.88px;
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -87,7 +87,8 @@
         position: absolute;
         height: fit-content;
         width: fit-content;
-        top: 8vh;
+        top: 0;
+        bottom: 0;
         left: 0;
         right: 0;
         margin: auto;
@@ -95,13 +96,13 @@
 
     #allTools {
         position: absolute;
-        width: 68vw;
-        height: 23vh;
+        width:  651.44px;
+        height: 217.12px;
         background-color: rgb(30, 30, 30);
         left: 0;
         right: 0;
         margin: auto;
-        bottom: 15vh;
+        bottom: 141.6px;
         border-radius: 20px;
     }
 
@@ -114,7 +115,7 @@
         right: 0;
         text-decoration: underline solid white 1px;
         bottom: -31px;
-        text-underline-offset: 1vh;
+        text-underline-offset:  9.44px;
 
     }
 
@@ -133,8 +134,8 @@
     img{
         width: 46px;
         height: 46px;
-        margin-left: 2.5vw;
-        margin-right: 2.5vw;
+        margin-left: 23.95px;
+        margin-right: 23.95px;
     }
     #circle{
         position: absolute;
@@ -170,14 +171,14 @@
 @media only screen and (min-width:  1024px) and (max-width: 1439px) {
     #About {
         background-color: black;
-        height: 103vh;
+        height: 972.32px;
         width: 100%;
         position: relative;
     }
 
     #h2-01 {
         text-align: center;
-        margin-top: 14vh;
+        margin-top: 132.16px;
         color: white;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
@@ -188,18 +189,18 @@
 
     #myDetails {
         color: white;
-        width: 38vw;
-        height: 50vh;
-        margin-left: 12vw;
-        margin-top: 5vh;
+        width: 364.04px;
+        height: 472px;
+        margin-left: 113.28px;
+        margin-top: 47.9px;
         background-color: rgb(30, 30, 30);
         border-radius: 20px;
         align-content: center;
     }
 
     #details {
-        font-size: 1.5vw;
-        margin-left: 2.2vw;
+        font-size: 14.37px;
+        margin-left: 21.076000000000004px;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -219,10 +220,10 @@
 
     #pic {
         position: absolute;
-        width: 30vw;
-        height: 25vh;
-        top: 35vh;
-        right: 12vw;
+        width: 287.4px;
+        height:  239.5px;
+        top: 294.4px;
+        right: 114.96px;
         border-radius: 20px;
         background-color: rgb(30, 30, 30);
     }
@@ -236,7 +237,7 @@
 
     #tools {
         position: absolute;
-        top: 2vh;
+        top: 18.88px;
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -251,7 +252,7 @@
         position: absolute;
         height: fit-content;
         width: fit-content;
-        top: 8vh;
+        top: 75.52px;
         left: 0;
         right: 0;
         margin: auto;
@@ -259,11 +260,11 @@
 
     #allTools {
         position: absolute;
-        width: 30vw;
-        height: 23vh;
+        width: 287.4px;
+        height:217.12px;
         background-color: rgb(30, 30, 30);
-        right: 12vw;
-        bottom: 18vh;
+        right: 114.96px;
+        bottom: 196.92px;
         border-radius: 20px;
     }
 
@@ -318,14 +319,14 @@
 
     #About {
         background-color: black;
-        height: 103vh;
+        height: 972.32px;
         width: 100%;
         position: relative;
     }
 
     #h2-01 {
         text-align: center;
-        margin-top: 14vh;
+        margin-top:132.16px;
         color: white;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
@@ -336,10 +337,10 @@
 
     #myDetails {
         color: white;
-        width: 38vw;
-        height: 50vh;
-        margin-left: 12vw;
-        margin-top: 5vh;
+        width: 514.04px;
+        height: 390px;
+        margin-left: 229.96px;
+        margin-top: 47.2px;
         background-color: rgb(30, 30, 30);
         border-radius: 20px;
         align-content: center;
@@ -347,7 +348,7 @@
 
     #details {
         font-size: 17px;
-        margin-left: 2.4vw;
+        margin-left: 22.991999999999997px;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -367,10 +368,10 @@
 
     #pic {
         position: absolute;
-        width: 30vw;
-        height: 25vh;
-        top: 35vh;
-        right: 12vw;
+        width: 287.4px;
+        height: 236px;
+        top:300.4px;
+        right: 346.96px;
         border-radius: 20px;
         background-color: rgb(30, 30, 30);
     }
@@ -384,7 +385,7 @@
 
     #tools {
         position: absolute;
-        top: 2vh;
+        top: 18.88px;
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -399,7 +400,7 @@
         position: absolute;
         height: fit-content;
         width: fit-content;
-        top: 8vh;
+        top: 75.52px;
         left: 0;
         right: 0;
         margin: auto;
@@ -407,11 +408,11 @@
 
     #allTools {
         position: absolute;
-        width: 30vw;
-        height: 23vh;
+        width: 287.4px;
+        height: 191.12px;
         background-color: rgb(30, 30, 30);
-        right: 12vw;
-        bottom: 18vh;
+        right: 346.96px;
+        bottom: 221.92px;
         border-radius: 20px;
     }
 
