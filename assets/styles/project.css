@@ -1,14 +1,13 @@
-@media only screen and (min-width:  768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     #projects {
-        height: 178vh;
-        width: 100%;
-        position: relative;
+        position: absolute;
         background-color: rgb(30, 30, 30);
-        margin-top: -3vh;
+        width: 100%;
+        height: 992px;
     }
 
-    #h1-02 {
+    #projects > h2 {
         text-align: center;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
@@ -17,539 +16,72 @@
         font-size: 2em;
         color: white;
     }
-
-    #project-01, #project-02 {
+    #grid{
         position: absolute;
-        width: 40vw;
-        height: 46vh;
+        width: fit-content;
+        height: fit-content;
+        top:  266.6px;
+        display: grid;
+        grid-template-columns: 325.72px 325.72px;
+        padding: 10px;
+        column-gap: 31.96px;
+        row-gap: 32px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #project-01,#project-02{
+        width: 325.72px;
+        height:285.72px;
         background-color: black;
-        border-radius: 30px;
+        border-radius: 8px;
+        position: relative;
         box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
     }
-
-    #project-img01, #project-img02 {
+    #project-03,#project-04{
+        width:  325.72px;
+        height:315.48px;
+        background-color: black;
+        border-radius: 8px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
+    }
+    div>a{
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-transform: uppercase;
+        filter: brightness(50%);
         position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        bottom: 47.2px;
+    }
+    a:hover{
+        filter:brightness(100%);
+    }
+    #img-01,#img-02{
         width: 228px;
         height: fit-content;
         left: 0;
         right: 0;
         margin: auto;
-        top: 4vh;
-    }
-
-    #project-span01, #project-span02 {
         position: absolute;
-        width: fit-content;
+        top: 28.32px;
+    }
+    #img-03,#img-04{
+        width: 228px;
         height: fit-content;
         left: 0;
         right: 0;
         margin: auto;
-        color: black;
-        bottom: 13vh;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-    }
-
-    #project-span01 > div, #project-span02 > div {
-        width: 10vw;
-        height: 2vh;
-        background-color: white;
-        border-radius: 5px;
-        text-align: center;
-        display: inline;
-    }
-
-    #project-span01 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-    #project-span02 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-    #project-link01, #project-link02 {
         position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        text-align: center;
-        bottom: 4vh;
-        color: rgba(255, 255, 255, 0.77);
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    #project-link01:hover, #project-link02:hover {
-        color: white;
-    }
-
-    #project-01 {
-        position: absolute;
-        left: 7vw;
-        top: 41vh;
-    }
-
-    #project-02 {
-        position: absolute;
-        right: 7vw;
-        top: 41vh;
-    }
-
-    /*-------------------------------------------project-03------------------------*/
-    #projects-03, #projects-04 {
-        position: absolute;
-        width: 40vw;
-        height: 54vh;
-        background-color: #000000;
-        border-radius: 30px;
-        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
-    }
-
-    #project-img03, #project-img04 {
-        position: absolute;
-        width: 237px;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 4vh;
-    }
-
-    #project-span03, #project-span04 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        color: #000000;
-        bottom: 11vh;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-    }
-
-    #project-span03 > div, #project-span04 > div {
-        width: 13vw;
-        height: 2vh;
-        background-color: white;
-        display: inline;
-        border-radius: 5px;
-
-    }
-
-    #project-span03 > div:nth-last-child(2), #project-span03 > div:nth-last-child(3), #project-span03 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-    #project-span04 > div:nth-last-child(2), #project-span04 > div:nth-last-child(3), #project-span04 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-
-    #project-link03, #project-link04 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 4vh;
-        color: rgba(255, 255, 255, 0.77);
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    #project-link03:hover, #project-link04:hover {
-        color: white;
-    }
-
-    #projects-03 {
-        position: absolute;
-        left: 7vw;
-        top: 103vh;
-    }
-
-    #projects-04 {
-        position: absolute;
-        right: 7vw;
-        top: 103vh;
-    }
-}
-
-
-    /*--------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width:  1024px) and (max-width: 1439px) {
-    #projects {
-        height: 178vh;
-        width: 100%;
-        position: relative;
-        background-color: rgb(30, 30, 30);
-        margin-top: -3vh;
-    }
-
-    #h1-02 {
-        text-align: center;
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 2em;
-        color: white;
-    }
-
-    #project-01, #project-02 {
-        position: absolute;
-        width: 40vw;
-        height: 46vh;
-        background-color: black;
-        border-radius: 30px;
-        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
-    }
-
-    #project-img01, #project-img02 {
-        position: absolute;
-        width: 282px;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 4vh;
-    }
-
-    #project-span01, #project-span02 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        color: black;
-        bottom: 10vh;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-    }
-
-    #project-span01 > div, #project-span02 > div {
-        width: 13vw;
-        height: 2vh;
-        background-color: white;
-        display: inline;
-        border-radius: 5px;
-
-    }
-
-    #project-span01 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-    #project-span02 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-    #project-link01, #project-link02 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 4vh;
-        color: rgba(255, 255, 255, 0.77);
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    #project-link01:hover, #project-link02:hover {
-        color: white;
-    }
-
-    #project-01 {
-        position: absolute;
-        left: 8vw;
-        top: 41vh;
-    }
-
-    #project-02 {
-        position: absolute;
-        right: 8vw;
-        top: 41vh;
-    }
-
-    /*-------------------------------------------project-03------------------------*/
-    #projects-03, #projects-04 {
-        position: absolute;
-        width: 40vw;
-        height: 54vh;
-        background-color: #000000;
-        border-radius: 30px;
-        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
-    }
-
-    #project-img03, #project-img04 {
-        position: absolute;
-        width: 282px;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 4vh;
-    }
-
-    #project-span03, #project-span04 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        color: #000000;
-        bottom: 11vh;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-    }
-
-    #project-span03 > div, #project-span04 > div {
-        width: 13vw;
-        height: 2vh;
-        background-color: white;
-        display: inline;
-        border-radius: 5px;
-
-    }
-
-    #project-span03 > div:nth-last-child(2), #project-span03 > div:nth-last-child(3), #project-span03 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-    #project-span04 > div:nth-last-child(2), #project-span04 > div:nth-last-child(3), #project-span04 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-
-    #project-link03, #project-link04 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 4vh;
-        color: rgba(255, 255, 255, 0.77);
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    #project-link03:hover, #project-link04:hover {
-        color: white;
-    }
-
-    #projects-03 {
-        position: absolute;
-        left: 8vw;
-        top: 103vh;
-    }
-
-    #projects-04 {
-        position: absolute;
-        right: 8vw;
-        top: 103vh;
-    }
-}
-
-/*----------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width:  1440px) {
-    #projects {
-        height: 188vh;
-        width: 100%;
-        position: relative;
-        background-color: rgb(30, 30, 30);
-        margin-top: -3vh;
-    }
-
-    #h1-02 {
-        text-align: center;
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 2em;
-        color: white;
-    }
-
-    #project-01, #project-02 {
-        position: absolute;
-        width: 40vw;
-        height: 52vh;
-        background-color: black;
-        border-radius: 30px;
-        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
-    }
-
-    #project-img01, #project-img02 {
-        position: absolute;
-        width: 380px;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 4vh;
-    }
-
-    #project-span01, #project-span02 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        color: black;
-        bottom: 9vh;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-    }
-
-    #project-span01 > div, #project-span02 > div {
-        width: 13vw;
-        height: 2vh;
-        background-color: white;
-        display: inline;
-        border-radius: 5px;
-
-    }
-
-    #project-span01 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-    #project-span02 > div:nth-last-child(2), #project-span01 > div:nth-last-child(3), #project-span01 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-    #project-link01, #project-link02 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 4vh;
-        color: rgba(255, 255, 255, 0.77);
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    #project-link01:hover, #project-link02:hover {
-        color: white;
-    }
-
-    #project-01 {
-        position: absolute;
-        left: 8vw;
-        top: 41vh;
-    }
-
-    #project-02 {
-        position: absolute;
-        right: 8vw;
-        top: 41vh;
-    }
-
-    /*-------------------------------------------project-03------------------------*/
-    #projects-03, #projects-04 {
-        position: absolute;
-        width: 40vw;
-        height: 64vh;
-        background-color: #000000;
-        border-radius: 30px;
-        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
-    }
-
-    #project-img03, #project-img04 {
-        position: absolute;
-        width: 380px;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 4vh;
-    }
-
-    #project-span03, #project-span04 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        color: #000000;
-        bottom: 11vh;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-    }
-
-    #project-span03 > div, #project-span04 > div {
-        width: 13vw;
-        height: 2vh;
-        background-color: white;
-        display: inline;
-        border-radius: 5px;
-
-    }
-
-    #project-span03 > div:nth-last-child(2), #project-span03 > div:nth-last-child(3), #project-span03 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-    #project-span04 > div:nth-last-child(2), #project-span04 > div:nth-last-child(3), #project-span04 > div:nth-last-child(4) {
-        margin-right: 1.5vw;
-    }
-
-
-    #project-link03, #project-link04 {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 4vh;
-        color: rgba(255, 255, 255, 0.77);
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    #project-link03:hover, #project-link04:hover {
-        color: white;
-    }
-
-    #projects-03 {
-        position: absolute;
-        left: 8vw;
-        top: 103vh;
-    }
-
-    #projects-04 {
-        position: absolute;
-        right: 8vw;
-        top: 103vh;
+        top: 28.32px;
     }
 }
