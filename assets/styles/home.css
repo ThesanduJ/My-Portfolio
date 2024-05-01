@@ -120,21 +120,6 @@
         color: black;
         font-size: 1.1em;
     }
-
-    #btnResume:active {
-        position: absolute;
-        width: 9.5vw;
-        height: 5.5vh;
-        color: black;
-        top: 69vh;
-        left: 11vw;
-        border-radius: 8px;
-
-    }
-
-    #btnResumeAction:active {
-        font-size: 1.1em;
-    }
 }
 
 
@@ -254,21 +239,6 @@
         font-weight: 600;
         font-style: normal;
         color: black;
-        font-size: 1.1em;
-    }
-
-    #btnResume:active {
-        position: absolute;
-        width: 9.5vw;
-        height: 5.5vh;
-        color: black;
-        top: 69vh;
-        left: 11vw;
-        border-radius: 8px;
-
-    }
-
-    #btnResumeAction:active {
         font-size: 1.1em;
     }
 
@@ -393,18 +363,4 @@
         font-size: 1.1em;
     }
 
-    #btnResume:active {
-        position: absolute;
-        width: 9.5vw;
-        height: 5.5vh;
-        color: black;
-        top: 69vh;
-        left: 11vw;
-        border-radius: 8px;
-
-    }
-
-    #btnResumeAction:active {
-        font-size: 1.1em;
-    }
 }
