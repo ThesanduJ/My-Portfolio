@@ -2,11 +2,10 @@
     #contact {
         width: 100%;
         height: 79.4px;
-        position: absolute;
+        position: relative;
         background-color: black;
         border-top: white solid 2px;
         border-bottom: white solid 2px;
-        bottom:-3636.456px;
     }
 
     #contact > span {
@@ -55,11 +54,10 @@
     #contact {
         width: 100%;
         height: 79.4px;
-        position: absolute;
+        position: relative;
         background-color: black;
         border-top: white solid 2px;
         border-bottom: white solid 2px;
-        bottom: -3089.776px;
     }
 
     #contact > span {
@@ -108,12 +106,11 @@
     #contact {
         width: 100%;
         height:94.4px;
-        position: absolute;
+        position: relative;
         background-color: black;
         border-top: white solid 2px;
         border-bottom: white solid 2px;
         margin: auto;
-        bottom: -3253.888px;
     }
 
     #contact > span {
