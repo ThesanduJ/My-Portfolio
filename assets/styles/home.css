@@ -96,7 +96,14 @@
             width: 110%;
         }
     }
-    #btnResume {
+
+    #btnResumeAction {
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        font-size: 1.1em;
         position: absolute;
         width: 22vw;
         height: 5vh;
@@ -109,16 +116,9 @@
         border: white solid 1px;
         font-weight: 600;
         cursor: pointer;
-
-    }
-
-    #btnResumeAction {
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        color: black;
-        font-size: 1.1em;
+        background-color: white;
+        text-align: center;
+        align-content: center;
     }
 }
 
@@ -219,7 +219,15 @@
             width: 110%;
         }
     }
-    #btnResume {
+
+
+    #btnResumeAction {
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        font-size: 1.1em;
         position: absolute;
         width: 14vw;
         height: 5vh;
@@ -230,16 +238,9 @@
         border: white solid 1px;
         font-weight: 600;
         cursor: pointer;
-
-    }
-
-    #btnResumeAction {
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        color: black;
-        font-size: 1.1em;
+        background-color: white;
+        text-align: center;
+        align-content: center;
     }
 
 }
@@ -340,7 +341,18 @@
             width: 110%;
         }
     }
-    #btnResume {
+
+
+    #btnResumeAction {
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        font-size: 1.1em;
+        background-color: white;
+        text-align: center;
+        align-content: center;
         position: absolute;
         width: 14vw;
         height: 5vh;
@@ -351,16 +363,6 @@
         border: white solid 1px;
         font-weight: 600;
         cursor: pointer;
-
-    }
-
-    #btnResumeAction {
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        color: black;
-        font-size: 1.1em;
     }
 
 }
