@@ -301,6 +301,7 @@
 
     #viewMore:hover {
         color: rgb(8, 119, 233);
+        text-decoration: underline solid rgb(8, 119, 233) 2px;
     }
     img{
         width: 50px;
