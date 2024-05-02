@@ -21,6 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- Include the audio element in your HTML -->
+<audio id="button-sound" src="assets/audio/Mouse%20Click%20Sound%20Effect2-%5BAudioTrimmer.com%5D.mp3" preload="auto"></audio>
 <header>
     <img width="150" height="80" src="assets/logo/logo.png" alt="intellij-idea"/>
     <br>
@@ -58,7 +60,7 @@
     <div id="container">
         <h4 id="h4-01">Undergraduate Software Engineering Student</h4>
     </div>
-    <a id="btnResumeAction" href="assets/pdf/cv.pdf" download="">
+    <a onclick="document.getElementById('button-sound').play();" id="btnResumeAction" href="assets/pdf/cv.pdf" download="">
         RESUME
     </a>
     <div id="imgDiv">
