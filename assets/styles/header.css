@@ -1,4 +1,4 @@
-@media only screen and (min-width:  768px) and (max-width: 1023.9px) {
+@media only screen and (min-width:  768px) and (max-width: 1023px) {
     header {
         position: fixed;
         height: 15vh;
@@ -48,7 +48,7 @@
         height: 71vh;
         top: 0;
         background-color: black;
-        opacity: 80%;
+        opacity: 50%;
         margin: auto;
         animation: menu 180ms linear;
     }
@@ -75,9 +75,6 @@
         font-style: normal;
         color: rgba(255, 255, 255, 0.73);
         text-decoration: none;
-    }
-    #Menu>div>h2>a:hover{
-        color: white;
     }
 
 
@@ -120,7 +117,7 @@
 }
 
 /*------------------------------------------------------------------------------------*/
-@media only screen and (min-width:  1024px) and (max-width: 1439.9px){
+@media only screen and (min-width:  1024px) and (max-width: 1439px){
     header {
         position: fixed;
         height: 15vh;
