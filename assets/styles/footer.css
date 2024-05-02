@@ -1,10 +1,10 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     footer {
         width: 100%;
-        height: 30vh;
+        height:225.2px;
         background-color: black;
         position: absolute;
-        bottom: -527.4vh;
+        bottom:-529.4vh;
     }
 
     footer > nav {
@@ -14,7 +14,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        margin-top: 4vh;
+        margin-top: 37.76px;
     }
 
     footer > nav > a {
@@ -24,7 +24,7 @@
         font-optical-sizing: auto;
         font-weight: 400;
         font-size: 18px;
-        margin-left: 2vw;
+        margin-left: 19.16px;
     }
 
     footer > p {
@@ -39,7 +39,7 @@
         margin: auto;
         left: 0;
         right: 0;
-        bottom: 3vh;
+        bottom: 28.32px;
     }
 
     footer > span > span > a {
@@ -57,12 +57,12 @@
         margin: auto;
         left: 0;
         right: 0;
-        margin-top: 4vh;
+        margin-top: 37.76px;
         text-decoration: none;
     }
 
     #span-group > span {
-        margin-left: 3vw;
+        margin-left: 28.74px;
         text-decoration: none;
     }
     footer > span > span > a > img {
@@ -76,10 +76,10 @@
 @media only screen and (min-width: 1024px) and (max-width: 1439px){
     footer {
         width: 100%;
-        height: 30vh;
+        height:  218.2px;
         background-color: black;
         position: absolute;
-        bottom: -455.4vh;
+        bottom: -3307.976px;
     }
 
     footer > nav {
@@ -89,7 +89,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        margin-top: 4vh;
+        margin-top: 37.76px;
     }
 
     footer > nav > a {
@@ -99,7 +99,7 @@
         font-optical-sizing: auto;
         font-weight: 400;
         font-size: 18px;
-        margin-left: 2vw;
+        margin-left:  19.16px;
     }
 
     footer > p {
@@ -114,7 +114,7 @@
         margin: auto;
         left: 0;
         right: 0;
-        bottom: 3vh;
+        bottom: 16.32px;
     }
 
     footer > span > span > a {
@@ -132,12 +132,12 @@
         margin: auto;
         left: 0;
         right: 0;
-        margin-top: 4vh;
+        margin-top: 37.76px;
         text-decoration: none;
     }
 
     #span-group > span {
-        margin-left: 3vw;
+        margin-left: 28.74px;
         text-decoration: none;
     }
     footer > span > span > a > img {
@@ -152,10 +152,10 @@
 @media only screen and (min-width: 1440px) {
     footer {
         width: 100%;
-        height: 30vh;
+        height: 233.2px;
         background-color: black;
         position: absolute;
-        bottom: -455.4vh;
+        bottom: -3486.976px;
     }
 
     footer > nav {
@@ -165,7 +165,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        margin-top: 4vh;
+        margin-top: 37.76px;
     }
 
     footer > nav > a {
@@ -175,7 +175,7 @@
         font-optical-sizing: auto;
         font-weight: 400;
         font-size: 18px;
-        margin-left: 2vw;
+        margin-left: 19.16px;
     }
 
     footer > p {
@@ -190,7 +190,7 @@
         margin: auto;
         left: 0;
         right: 0;
-        bottom: 3vh;
+        bottom: 28.32px;
     }
 
     footer > span > span > a {
@@ -208,12 +208,12 @@
         margin: auto;
         left: 0;
         right: 0;
-        margin-top: 4vh;
+        margin-top: 37.76px;
         text-decoration: none;
     }
 
     #span-group > span {
-        margin-left: 3vw;
+        margin-left: 28.74px;
         text-decoration: none;
     }
 

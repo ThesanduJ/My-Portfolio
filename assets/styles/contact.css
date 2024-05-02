@@ -1,12 +1,12 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     #contact {
         width: 100%;
-        height: 10vh;
+        height: 79.4px;
         position: absolute;
         background-color: black;
         border-top: white solid 2px;
         border-bottom: white solid 2px;
-        bottom:-497.4vh;
+        bottom:-3636.456px;
     }
 
     #contact > span {
@@ -31,8 +31,8 @@
     }
 
     #contact > span > button {
-        width: 25vw;
-        height: 5vh;
+        width: 239.5px;
+        height:37.2px;
         background-color: rgb(36, 36, 36);
         border-radius: 7px;
         border: white 2px solid;
@@ -54,12 +54,12 @@
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
     #contact {
         width: 100%;
-        height: 10vh;
+        height: 79.4px;
         position: absolute;
         background-color: black;
         border-top: white solid 2px;
         border-bottom: white solid 2px;
-        bottom: -425.4vh;
+        bottom: -3089.776px;
     }
 
     #contact > span {
@@ -84,8 +84,8 @@
     }
 
     #contact > span > button {
-        width: 25vw;
-        height: 5vh;
+        width: 239.5px;
+        height: 37.2px;
         background-color: rgb(36, 36, 36);
         border-radius: 7px;
         border: white 2px solid;
@@ -107,13 +107,13 @@
 @media only screen and (min-width: 1440px) {
     #contact {
         width: 100%;
-        height: 10vh;
+        height:94.4px;
         position: absolute;
         background-color: black;
         border-top: white solid 2px;
         border-bottom: white solid 2px;
         margin: auto;
-        bottom:-425.2vh;
+        bottom: -3253.888px;
     }
 
     #contact > span {
@@ -137,8 +137,8 @@
     }
 
     #contact > span > button {
-        width: 18vw;
-        height: 5vh;
+        width: 272.44px;
+        height:  42.2px;
         background-color: rgb(36, 36, 36);
         border-radius: 7px;
         border: white 2px solid;
