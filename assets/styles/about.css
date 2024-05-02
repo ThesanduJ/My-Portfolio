@@ -1,4 +1,4 @@
-@media only screen and (min-width:  768px) and (max-width: 1023px) {
+@media only screen and (min-width:  768px) and (max-width: 1023.9px) {
     #About {
         background-color: black;
         height: 1255.52px;
@@ -168,7 +168,7 @@
 
 /*------------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-width:  1024px) and (max-width: 1439px) {
+@media only screen and (min-width:  1024px) and (max-width: 1439.9px) {
     #About {
         background-color: black;
         height: 972.32px;
