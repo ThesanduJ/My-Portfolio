@@ -186,16 +186,34 @@
         font-size: 2em;
         font-style: normal;
     }
-
+    #div-group{
+        position: absolute;
+        width: 850px;
+        height: 550px;
+        top: 279px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #div-group-2{
+        position: absolute;
+        right: 0;
+        margin: auto;
+        height: 550px;
+        width: 300px;
+    }
     #myDetails {
         color: white;
         width: 364.04px;
         height: 472px;
-        margin-left: 113.28px;
-        margin-top: 47.9px;
         background-color: rgb(30, 30, 30);
         border-radius: 20px;
         align-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50px;
+        margin: auto;
     }
 
     #details {
@@ -222,8 +240,9 @@
         position: absolute;
         width: 287.4px;
         height:  239.5px;
-        top: 294.4px;
-        right: 114.96px;
+        top: 38px;
+        right: 50px;
+        margin:auto ;
         border-radius: 20px;
         background-color: rgb(30, 30, 30);
     }
@@ -263,9 +282,10 @@
         width: 287.4px;
         height:217.12px;
         background-color: rgb(30, 30, 30);
-        right: 114.96px;
-        bottom: 196.92px;
+        bottom: 38px;
+        right: 50px;
         border-radius: 20px;
+        margin: auto;
     }
 
     #viewMore {
@@ -334,16 +354,35 @@
         font-size: 2em;
         font-style: normal;
     }
+    #div-group{
+        position: absolute;
+        width: 1073px;
+        height: 550px;
+        top: 279px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #div-group-2{
+        position: absolute;
+        right: 0;
+        margin: auto;
+        height: 550px;
+        width: 300px;
+    }
 
     #myDetails {
+        position: absolute;
         color: white;
         width: 514.04px;
         height: 390px;
-        margin-left: 229.96px;
-        margin-top: 47.2px;
         background-color: rgb(30, 30, 30);
         border-radius: 20px;
         align-content: center;
+        top: 0;
+        bottom: 0;
+        left: 95px;
+        margin: auto;
     }
 
     #details {
@@ -370,8 +409,9 @@
         position: absolute;
         width: 287.4px;
         height: 236px;
-        top:300.4px;
-        right: 346.96px;
+        top: 60px;
+        right: 95px;
+        margin:auto ;
         border-radius: 20px;
         background-color: rgb(30, 30, 30);
     }
@@ -411,9 +451,10 @@
         width: 287.4px;
         height: 191.12px;
         background-color: rgb(30, 30, 30);
-        right: 346.96px;
-        bottom: 221.92px;
         border-radius: 20px;
+        bottom: 60px;
+        right: 95px;
+        margin: auto;
     }
 
     #viewMore {
