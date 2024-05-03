@@ -1,6 +1,315 @@
 body {
     background-color: black;
 }
+@media only screen and (min-width:  375px) and (max-width: 425.9px) {
+    #skills {
+        height: 2117px;
+        width: 100%;
+        position: relative;
+        background-color: black;
+    }
+
+    #mainTopic {
+        text-align: center;
+        margin-top: 0;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 2.5em;
+        font-style: normal;
+    }
+
+    #skills-01 {
+        position: relative;
+        width: 341.7px;
+        height: 718.92px;
+        background-color: rgb(30, 30, 30);
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        border-radius: 16px;
+    }
+
+    #skills-02 {
+        position: relative;
+        width: 341.7px;
+        height: 1103.92px;
+        background-color: rgb(30, 30, 30);
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        border-radius: 16px;
+    }
+
+    #skills-01 > h4 {
+        margin-left: 28.74px;
+    }
+
+    #skills-01 > #topic-01, #skills-02 > #topic-02 {
+        font-size: 1.3em;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 9.44px; /*gap between text and underline*/
+        text-decoration-thickness: 9.44px;
+    }
+
+    #div-01, #div-02, #div-03, #div-04, #div-05, #div-06 {
+        margin-left: 28.74px;
+        width: 287.9px;
+        height: 28.32px;
+        background-color: white;
+        border-radius: 7px;
+    }
+
+    #div-07, #div-08, #div-09, #div-10, #div-11, #div-12 {
+        width: 0;
+        height: 28.32px;
+        background-color: rgb(151, 71, 255);
+        border-radius: 7px;
+        animation: skill-01 1.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes skill-01 {
+        from {
+            width: 0;
+        }
+        to {
+            width: 160px;
+        }
+    }
+    #div-13, #div-14, #div-15, #div-16, #div-17, #div-18 {
+        width: 0;
+        height: 28.32px;
+        background-color: rgb(255, 255, 255);;
+        opacity: 16%;
+        border-radius: 7px;
+        animation: in-skill-01 1.5s linear infinite;
+    }
+
+    @keyframes in-skill-01 {
+        from {
+            width: 0;
+        }
+        to {
+            width: 160px;
+        }
+    }
+    #grid {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        column-gap: 67.06px;
+        row-gap: 56.64px;
+        margin-top: 74.72px;
+    }
+
+    header > a > img {
+        margin-top: 37.76px;
+        margin-left: 28.74px;
+        filter: brightness(50%);
+    }
+
+    header > a > img:hover {
+        filter: brightness(100%);
+    }
+
+    #div-19, #div-22, #div-25, #div-28 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border-style: solid;
+        border-top-color: rgb(151, 71, 255);
+        border-left-color: rgb(151, 71, 255);
+        border-width: 24.544px;
+        animation: cir-rotate 1.5s;
+    }
+
+    @keyframes cir-rotate {
+        from {
+            rotate: 0;
+        }
+        to {
+            rotate: 360deg;
+        }
+    }
+    #div-20, #div-23, #div-26, #div-29 {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        border-radius: 100%;
+    }
+
+    #grid-sub {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        column-gap: 38.32px;
+        row-gap: 37.76px;
+        margin-top: 56.64px;
+    }
+
+    /*------------------------------------------------------*/
+    footer {
+        width: 100%;
+        height:128.2px;
+        background-color: black;
+        position: relative;
+    }
+
+    footer > nav {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 37.76px;
+    }
+
+    footer > nav > a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 19.16px;
+        display: none;
+    }
+
+    footer > p {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 5px;
+        font-size: 11px;
+    }
+
+    footer > span > span > a {
+        text-decoration: none;
+    }
+
+    footer > nav > a:hover {
+        color: white;
+    }
+
+    #span-group {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        margin-top: -33.24px;
+        text-decoration: none;
+    }
+
+    #span-group > span {
+        margin-left: 1.74px;
+        text-decoration: none;
+    }
+    footer > span > span > a > img {
+        filter: brightness(70%);
+    }
+    footer > span > span > a > img:hover {
+        filter: brightness(100%);
+    }
+    /*------------------------------------------------------*/
+    #contact {
+        width: 100%;
+        height: 79.4px;
+        position: relative;
+        background-color: black;
+        border-top: white solid 2px;
+        border-bottom: white solid 2px;
+    }
+
+    #contact > span {
+        width: 391px;
+        height: 67px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+
+    #contact > span > label {
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    #contact > span > button {
+        width: 239.5px;
+        height:31.2px;
+        background-color: rgb(36, 36, 36);
+        border-radius: 7px;
+        border: white 2px solid;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 5px;
+
+    }
+
+    #contact > span > button > a {
+        text-decoration: none;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+}
+/*----------------------------------------------------------------------------*/
+
+
 @media only screen and (min-width:  425px) and (max-width: 768.9px) {
     #skills {
         height: 2117px;

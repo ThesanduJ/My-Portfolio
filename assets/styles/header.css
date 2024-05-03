@@ -1,3 +1,123 @@
+@media only screen and (min-width:  375px) and (max-width: 425.9px) {
+    header {
+        position: fixed;
+        height: 15vh;
+        left: 0;
+        top: 0;
+        margin: auto;
+        right: 0;
+        width: 100%;
+        background: rgb(30, 30, 30);
+        z-index: 1;
+    }
+    .container {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        right: 13vw;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 1;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: lightgray;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {opacity: 0;}
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    #Menu{
+        position: absolute;
+        width: 100%;
+        height: 71vh;
+        top: 0;
+        background-color: black;
+        opacity: 50%;
+        margin: auto;
+        animation: menu 180ms linear;
+    }
+    @keyframes menu {
+        from{
+            height: 0;
+        }
+        to{
+            height: 71vh;
+        }
+    }
+    #Menu>div{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 13vw;
+        margin: auto;
+        top: 18vh;
+    }
+    #Menu>div>h2>a{
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.73);
+        text-decoration: none;
+    }
+
+
+    header > nav {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 4vw;
+        display: none;
+    }
+
+    header > nav > a {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.73);
+        margin-right: 1vw;
+        text-decoration: none;
+        display: none;
+    }
+
+    header > img {
+        position: absolute;
+        width: 91px;
+        height: 58px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 5vw;
+        z-index: 1;
+    }
+
+    header > nav > a:hover {
+        color: white;
+    }
+}
+
+/*------------------------------------------------------------------------------*/
+
 @media only screen and (min-width:  425px) and (max-width: 768.9px) {
     header {
         position: fixed;

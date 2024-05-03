@@ -1,3 +1,172 @@
+@media only screen and (min-width:  375px) and (max-width: 425.9px) {
+    #About {
+        background-color: black;
+        height: 1255.52px;
+        width: 100%;
+        position: relative;
+    }
+
+    #h2-01 {
+        text-align: center;
+        margin-top: 132.16px;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 2em;
+        font-style: normal;
+    }
+
+    #myDetails {
+        position: absolute;
+        color: white;
+        width:  346.44px;
+        height: 402.64px;
+        left: 0;
+        right: 0;
+        top: 508.4px;
+        margin: auto;
+        background-color: rgb(30, 30, 30);
+        border-radius: 20px;
+        align-content: center;
+    }
+
+    #details {
+        font-size: 17.244px;
+        margin-left: 21.076000000000004px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #tools {
+        color: white;
+    }
+
+    #imgTools {
+        color: white;
+    }
+
+    #viewMore {
+        color: white;
+    }
+
+    #pic {
+        position: absolute;
+        width: 301.94px;
+        height: 178px;
+        top: 302.08px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 20px;
+        background-color: rgb(30, 30, 30);
+    }
+
+    #myPicture2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 100%;
+    }
+
+    #tools {
+        position: absolute;
+        top: 18.88px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        height: fit-content;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #imgTools {
+        position: absolute;
+        height: fit-content;
+        width: fit-content;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #allTools {
+        position: absolute;
+        width:  346.44px;
+        height: 217.12px;
+        background-color: rgb(30, 30, 30);
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 115.6px;
+        border-radius: 20px;
+    }
+
+    #viewMore {
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-decoration: underline solid white 1px;
+        bottom: -31px;
+        text-underline-offset:  9.44px;
+
+    }
+
+    #viewMore:hover {
+        color: rgb(8, 119, 233);
+        text-decoration: underline solid rgb(8, 119, 233) 2px;
+    }
+    #allTools>span{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+    }
+    img{
+        width: 44px;
+        height: 44px;
+        margin-left: 17.95px;
+        margin-right: 17.95px;
+    }
+    #circle{
+        position: absolute;
+        width: 139px;
+        height: 139px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 100%;
+        background-color: white;
+    }
+    #profile-pic{
+        filter: saturate(0);
+        width: 111px;
+        height: 166px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        right: 0;
+    }
+    #profile-pic:hover{
+        filter: saturate(100%);
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+
 @media only screen and (min-width:  425px) and (max-width: 768.9px) {
     #About {
         background-color: black;
