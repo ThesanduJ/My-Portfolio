@@ -1,6 +1,96 @@
+@media only screen and (min-width:  320px) and (max-width: 375.9px) {
+    #assigment {
+        background-color: rgb(30, 30, 30);
+        width: 100%;
+        height:  2355.2px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    #h1-03 {
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2em;
+        color: white;
+    }
+
+    #grid-con {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        top:  290.6px;
+        display: grid;
+        grid-template-columns: 276.96px;
+        padding: 10px;
+        column-gap: 57.86px;
+        row-gap: 32px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #assigment > div > div {
+        width: 276.96px;
+        height: 133.86px;
+        background-color: black;
+        border-radius: 8px;
+    }
+
+    #assigment > div > div > label {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 18.88px;
+    }
+    #assigment > div > div>div{
+        position: relative;
+    }
+    #assigment > div > div{
+        position: relative;
+    }
+    #assigment > div > div >div> button {
+        /*margin-left: 2vw;*/
+        margin-top: 28.32px;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 114.96px;
+        height: 31.76px;
+    }
+    .button-set{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+/*-------------------------------------------------------------------------------*/
+
 @media only screen and (min-width:  375px) and (max-width: 425.9px) {
     #assigment {
-        background-image: url("../images/bg.png");
+        background-color: rgb(30, 30, 30);
         width: 100%;
         height:  2355.2px;
         background-size: 100% 100%;
@@ -90,7 +180,7 @@
 
 @media only screen and (min-width:  425px) and (max-width: 768.9px) {
     #assigment {
-        background-image: url("../images/bg.png");
+        background-color: rgb(30, 30, 30);
         width: 100%;
         height:  2355.2px;
         background-size: 100% 100%;
