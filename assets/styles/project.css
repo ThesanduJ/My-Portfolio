@@ -2,8 +2,8 @@
     #projects {
         position: relative;
         background-color: rgb(30, 30, 30);
-        height: 4504px;
-        width: 314%;
+        width: 100%;
+        height: 1664px;
     }
 
     #projects > h2 {
@@ -12,39 +12,39 @@
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
-        font-size: 5em;
+        font-size: 2em;
         color: white;
-        margin-top: 269.16px;
     }
 
     #grid {
         position: absolute;
         width: fit-content;
         height: fit-content;
-        top: 668.6px;
+        top: 266.6px;
         display: grid;
-        grid-template-columns: 897.72px;
+        grid-template-columns: 325.72px ;
         padding: 10px;
-        row-gap: 111px;
+        column-gap: 31.96px;
+        row-gap: 32px;
         left: 0;
         right: 0;
         margin: auto;
     }
 
     #project-01, #project-02 {
-        width: 897.72px;
-        height: 759.72px;
+        width: 325.72px;
+        height: 285.72px;
         background-color: black;
-        border-radius: 51px;
+        border-radius: 8px;
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
     }
 
     #project-03, #project-04 {
-        width: 897.72px;
-        height: 866.72px;
+        width: 325.72px;
+        height: 315.48px;
         background-color: black;
-        border-radius: 51px;
+        border-radius: 8px;
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
     }
@@ -65,7 +65,6 @@
         margin: auto;
         text-align: center;
         bottom: 47.2px;
-        font-size: 50px;
     }
 
     a:hover {
@@ -73,23 +72,23 @@
     }
 
     #img-01, #img-02 {
-        width: 726px;
+        width: 228px;
         height: fit-content;
         left: 0;
         right: 0;
         margin: auto;
         position: absolute;
-        top: 71.32px;
+        top: 28.32px;
     }
 
     #img-03, #img-04 {
-        width: 726px;
+        width: 228px;
         height: fit-content;
         left: 0;
         right: 0;
         margin: auto;
         position: absolute;
-        top: 71.32px;
+        top: 28.32px;
     }
 }
 

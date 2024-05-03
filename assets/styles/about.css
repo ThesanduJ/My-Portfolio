@@ -1,30 +1,30 @@
 @media only screen and (min-width:  425px) and (max-width: 768.9px) {
     #About {
         background-color: black;
-        height: 2538px;
-        width: 314%;
+        height: 1255.52px;
+        width: 100%;
         position: relative;
     }
 
     #h2-01 {
         text-align: center;
-        margin-top: 269.16px;
+        margin-top: 132.16px;
         color: white;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
         font-weight: 600;
-        font-size: 5em;
+        font-size: 2em;
         font-style: normal;
     }
 
     #myDetails {
         position: absolute;
         color: white;
-        width:  1102.44px;
-        height: 673.64px;
+        width:  384.44px;
+        height: 373.64px;
         left: 0;
         right: 0;
-        top: 1126px;
+        top: 524.4px;
         margin: auto;
         background-color: rgb(30, 30, 30);
         border-radius: 20px;
@@ -32,7 +32,7 @@
     }
 
     #details {
-        font-size: 38.244px;
+        font-size: 17.244px;
         margin-left: 21.076000000000004px;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -53,9 +53,9 @@
 
     #pic {
         position: absolute;
-        width: 745.94px;
-        height: 492px;
-        top: 537.08px;
+        width: 331.94px;
+        height: 195px;
+        top: 302.08px;
         right: 0;
         left: 0;
         margin: auto;
@@ -81,7 +81,6 @@
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 56px;
     }
 
     #imgTools {
@@ -97,13 +96,13 @@
 
     #allTools {
         position: absolute;
-        width: 1102.44px;
-        height: 365.12px;
+        width:  384.44px;
+        height: 217.12px;
         background-color: rgb(30, 30, 30);
         left: 0;
         right: 0;
         margin: auto;
-        bottom: 292.6px;
+        bottom: 115.6px;
         border-radius: 20px;
     }
 
@@ -115,9 +114,8 @@
         left: 0;
         right: 0;
         text-decoration: underline solid white 1px;
-        bottom: -81px;
+        bottom: -31px;
         text-underline-offset:  9.44px;
-        font-size: 50px;
 
     }
 
@@ -134,185 +132,15 @@
         height: fit-content;
     }
     img{
-        width: 120px;
-        height: 120px;
-        margin-left: 23.95px;
-        margin-right: 23.95px;
+        width: 44px;
+        height: 44px;
+        margin-left: 22.95px;
+        margin-right: 22.95px;
     }
     #circle{
         position: absolute;
-        width: 382px;
-        height: 382px;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        border-radius: 100%;
-        background-color: white;
-    }
-    #profile-pic{
-        filter: saturate(0);
-        width: 312px;
-        height: 442px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        right: 0;
-    }
-    #profile-pic:hover{
-        filter: saturate(100%);
-    }
-}
-
-
-/*------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width:  1024px) and (max-width: 1439.9px) {
-    #About {
-        background-color: black;
-        height: 972.32px;
-        width: 100%;
-        position: relative;
-    }
-
-    #h2-01 {
-        text-align: center;
-        margin-top: 132.16px;
-        color: white;
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-size: 2em;
-        font-style: normal;
-    }
-    #div-group{
-        position: absolute;
-        width: 850px;
-        height: 550px;
-        top: 279px;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-    #div-group-2{
-        position: absolute;
-        right: 0;
-        margin: auto;
-        height: 550px;
-        width: 300px;
-    }
-    #myDetails {
-        color: white;
-        width: 364.04px;
-        height: 472px;
-        background-color: rgb(30, 30, 30);
-        border-radius: 20px;
-        align-content: center;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 50px;
-        margin: auto;
-    }
-
-    #details {
-        font-size: 14.37px;
-        margin-left: 21.076000000000004px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    #tools {
-        color: white;
-    }
-
-    #imgTools {
-        color: white;
-    }
-
-    #viewMore {
-        color: white;
-    }
-
-    #pic {
-        position: absolute;
-        width: 287.4px;
-        height:  239.5px;
-        top: 38px;
-        right: 50px;
-        margin:auto ;
-        border-radius: 20px;
-        background-color: rgb(30, 30, 30);
-    }
-
-    #myPicture2 {
-        position: absolute;
-        right: 0;
-        top: 0;
-        border-radius: 100%;
-    }
-
-    #tools {
-        position: absolute;
-        top: 18.88px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        height: fit-content;
-        width: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    #imgTools {
-        position: absolute;
-        height: fit-content;
-        width: fit-content;
-        top: 75.52px;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    #allTools {
-        position: absolute;
-        width: 287.4px;
-        height:217.12px;
-        background-color: rgb(30, 30, 30);
-        bottom: 38px;
-        right: 50px;
-        border-radius: 20px;
-        margin: auto;
-    }
-
-    #viewMore {
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-        position: absolute;
-        left: 0;
-        right: 0;
-        text-decoration: underline solid white 1px;
-        bottom: -31px;
-    }
-
-    #viewMore:hover {
-        color: rgb(8, 119, 233);
-        text-decoration: underline solid rgb(8, 119, 233) 2px;
-    }
-    img{
-        width: 50px;
-        height: 50px;
-    }
-    #circle{
-        position: absolute;
-        width: 140px;
-        height: 140px;
+        width: 139px;
+        height: 139px;
         top: 0;
         bottom: 0;
         left: 0;
@@ -337,175 +165,7 @@
     }
 }
 
-/*-------------------------------------------------------------------------*/
-@media only screen and (min-width:  1440px){
 
-    #About {
-        background-color: black;
-        height: 972.32px;
-        width: 100%;
-        position: relative;
-    }
-
-    #h2-01 {
-        text-align: center;
-        margin-top:132.16px;
-        color: white;
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-size: 2em;
-        font-style: normal;
-    }
-    #div-group{
-        position: absolute;
-        width: 1073px;
-        height: 550px;
-        top: 279px;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-    #div-group-2{
-        position: absolute;
-        right: 0;
-        margin: auto;
-        height: 550px;
-        width: 300px;
-    }
-
-    #myDetails {
-        position: absolute;
-        color: white;
-        width: 514.04px;
-        height: 390px;
-        background-color: rgb(30, 30, 30);
-        border-radius: 20px;
-        align-content: center;
-        top: 0;
-        bottom: 0;
-        left: 95px;
-        margin: auto;
-    }
-
-    #details {
-        font-size: 17px;
-        margin-left: 22.991999999999997px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    #tools {
-        color: white;
-    }
-
-    #imgTools {
-        color: white;
-    }
-
-    #viewMore {
-        color: white;
-    }
-
-    #pic {
-        position: absolute;
-        width: 287.4px;
-        height: 236px;
-        top: 60px;
-        right: 95px;
-        margin:auto ;
-        border-radius: 20px;
-        background-color: rgb(30, 30, 30);
-    }
-
-    #myPicture2 {
-        position: absolute;
-        right: 0;
-        top: 0;
-        border-radius: 100%;
-    }
-
-    #tools {
-        position: absolute;
-        top: 18.88px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        height: fit-content;
-        width: fit-content;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    #imgTools {
-        position: absolute;
-        height: fit-content;
-        width: fit-content;
-        top: 75.52px;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    #allTools {
-        position: absolute;
-        width: 287.4px;
-        height: 191.12px;
-        background-color: rgb(30, 30, 30);
-        border-radius: 20px;
-        bottom: 60px;
-        right: 95px;
-        margin: auto;
-    }
-
-    #viewMore {
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-        position: absolute;
-        left: 0;
-        right: 0;
-        text-decoration: underline solid white 1px;
-        bottom: -31px;
-    }
-
-    #viewMore:hover {
-        color: rgb(8, 119, 233);
-        text-decoration: underline solid rgb(8, 119, 233) 2px;
-    }
-    img{
-        width: 55px;
-        height: 55px;
-    }
-    #circle{
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        border-radius: 100%;
-        background-color: white;
-    }
-    #profile-pic{
-        filter: saturate(0);
-        width:115px;
-        height: 175px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        right: 0;
-    }
-    #profile-pic:hover{
-        filter: saturate(100%);
-    }
-}
 
 /*----------------------------------------------------------------------------------------*/
 

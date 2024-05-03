@@ -1,7 +1,7 @@
 @media only screen and (min-width:  425px) and (max-width: 768.9px) {
     header {
         position: fixed;
-        height: 33vh;
+        height: 15vh;
         left: 0;
         top: 0;
         margin: auto;
@@ -16,7 +16,7 @@
         position: absolute;
         width: fit-content;
         height: fit-content;
-        right: 27vw;
+        right: 7vw;
         top: 0;
         bottom: 0;
         margin: auto;
@@ -24,28 +24,28 @@
     }
 
     .bar1, .bar2, .bar3 {
-        width: 119px;
-        height: 12px;
+        width: 35px;
+        height: 5px;
         background-color: lightgray;
-        margin: 20px 0;
+        margin: 6px 0;
         transition: 0.4s;
     }
 
     .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-28px, 30px);
-        transform: rotate(-45deg) translate(-28px, 30px);
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
     }
 
     .change .bar2 {opacity: 0;}
 
     .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-12px, -14px);
-        transform: rotate(45deg) translate(-12px, -14px);
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
     }
     #Menu{
         position: absolute;
         width: 100%;
-        height: 156vh;
+        height: 71vh;
         top: 0;
         background-color: black;
         opacity: 50%;
@@ -66,7 +66,7 @@
         height: fit-content;
         left: 13vw;
         margin: auto;
-        top: 37vh;
+        top: 18vh;
     }
     #Menu>div>h2>a{
         font-family: "Outfit", sans-serif;
@@ -75,7 +75,6 @@
         font-style: normal;
         color: rgba(255, 255, 255, 0.73);
         text-decoration: none;
-        font-size: 3em;
     }
 
 
@@ -103,8 +102,8 @@
 
     header > img {
         position: absolute;
-        width: 280px;
-        height: 167px;
+        width: 128px;
+        height: 74px;
         top: 0;
         bottom: 0;
         margin: auto;

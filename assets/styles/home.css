@@ -1,15 +1,15 @@
 @media only screen and (min-width:  425px) and (max-width: 768.9px) {
     #Home {
         background-color: rgb(30, 30, 30);
-        width: 314%;
-        height: 314vh;
+        width: 100%;
+        height: 100vh;
         position: relative;
     }
     /*-------------------------------------------------------------------------------------------*/
     #blob-01{
-        width: 1000px;
-        height: 1000px;
-        top:51vh;
+        width: 350px;
+        height: 350px;
+        top: 16vh;
         right: 0;
         left: 0;
         margin: auto;
@@ -34,9 +34,9 @@
 
     #myImg {
         position: absolute;
-        width: 1100px;
+        width: 320px;
         height: auto;
-        top:35vh;
+        top: 10vh;
         margin: auto;
         right: 0;
         left: 0;
@@ -47,7 +47,7 @@
         position: absolute;
         width: fit-content;
         height: fit-content;
-        bottom: 57vh;
+        bottom: 18vh;
         left: 0;
         right: 0;
         margin: auto;
@@ -58,7 +58,7 @@
         background: -webkit-linear-gradient(#eee, #6b6b6b);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 6em;
+        font-size: 2em;
         text-align: center;
     }
 
@@ -69,7 +69,7 @@
         height: fit-content;
         left: 0;
         right: 0;
-        bottom: 37vh;
+        bottom: 9vh;
         margin: auto;
     }
 
@@ -78,7 +78,7 @@
         font-weight: 400;
         font-style: normal;
         color: lightgray;
-        font-size: 3.1em;
+        font-size: 1.1em;
         overflow: hidden;
         white-space: nowrap;
         width: 0;
@@ -103,12 +103,12 @@
         font-weight: 600;
         font-style: normal;
         color: black;
-        font-size: 3.1em;
+        font-size: 1.1em;
         position: absolute;
-        width: 84vw;
-        height: 16vh;
+        width: 22vw;
+        height: 5vh;
         color: black;
-        bottom: 15vh;
+        bottom: 4vh;
         left: 0;
         right: 0;
         margin: auto;
