@@ -1,3 +1,100 @@
+@media only screen and (min-width:  425px) and (max-width: 768.9px) {
+    #projects {
+        position: relative;
+        background-color: rgb(30, 30, 30);
+        height: 4504px;
+        width: 314%;
+    }
+
+    #projects > h2 {
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 5em;
+        color: white;
+        margin-top: 269.16px;
+    }
+
+    #grid {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        top: 668.6px;
+        display: grid;
+        grid-template-columns: 897.72px;
+        padding: 10px;
+        row-gap: 111px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #project-01, #project-02 {
+        width: 897.72px;
+        height: 759.72px;
+        background-color: black;
+        border-radius: 51px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
+    }
+
+    #project-03, #project-04 {
+        width: 897.72px;
+        height: 866.72px;
+        background-color: black;
+        border-radius: 51px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.35) 13px 13px 0;
+    }
+
+    div > a {
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-transform: uppercase;
+        filter: brightness(50%);
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        bottom: 47.2px;
+        font-size: 50px;
+    }
+
+    a:hover {
+        filter: brightness(100%);
+    }
+
+    #img-01, #img-02 {
+        width: 726px;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+        top: 71.32px;
+    }
+
+    #img-03, #img-04 {
+        width: 726px;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+        top: 71.32px;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
 @media only screen and (min-width: 768px) and (max-width: 1023.9px) {
 
     #projects {

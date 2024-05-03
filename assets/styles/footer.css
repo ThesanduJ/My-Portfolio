@@ -1,3 +1,85 @@
+@media only screen and (min-width:  425px) and (max-width: 768.9px) {
+    footer {
+        width: 314%;
+        height:360.2px;
+        background-color: black;
+        position: relative;
+    }
+
+    footer > nav {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 37.76px;
+    }
+
+    footer > nav > a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        margin-left: 19.16px;
+        font-size: 36px;
+    }
+
+    footer > p {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 28.32px;
+        font-size: 36px;
+    }
+
+    footer > span > span > a {
+        text-decoration: none;
+    }
+
+    footer > nav > a:hover {
+        color: white;
+    }
+
+    #span-group {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        text-decoration: none;
+        top: 0;
+        bottom: 0;
+    }
+
+    #span-group > span {
+        margin-left: 28.74px;
+        text-decoration: none;
+    }
+    footer > span > span > a > img {
+        filter: brightness(70%);
+    }
+    footer > span > span > a > img{
+        width: 100px;
+        height: 100px;
+    }
+    footer > span > span > a > img:hover {
+        filter: brightness(100%);
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
 @media only screen and (min-width: 768px) and (max-width: 1023.9px) {
     footer {
         width: 100%;
