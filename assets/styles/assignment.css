@@ -73,6 +73,14 @@
         border-radius: 8px;
         width: 114.96px;
         height: 31.76px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #assigment > div > div >div> button:hover {
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
     .button-set{
         position: absolute;
@@ -163,6 +171,14 @@
         border-radius: 8px;
         width: 114.96px;
         height: 31.76px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #assigment > div > div >div> button:hover {
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
     .button-set{
         position: absolute;
@@ -253,6 +269,14 @@
         border-radius: 8px;
         width: 114.96px;
         height: 31.76px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #assigment > div > div >div> button:hover {
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
     .button-set{
         position: absolute;
@@ -344,6 +368,14 @@
         border-radius: 8px;
         width: 114.96px;
         height: 31.76px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #assigment > div > div >div> button:hover {
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
     .button-set{
         position: absolute;
@@ -434,6 +466,14 @@
         border-radius: 8px;
         width: 114.96px;
         height:  32.76px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #assigment > div > div >div> button:hover {
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
     .button-set{
         position: absolute;
@@ -524,6 +564,14 @@
         border-radius: 8px;
         width: 114.96px;
         height: 34.76px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #assigment > div > div >div> button:hover {
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
     .button-set{
         position: absolute;

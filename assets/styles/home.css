@@ -101,23 +101,26 @@
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
-        color: black;
         font-size: 1.1em;
         position: absolute;
         width: 35vw;
         height: 4vh;
-        color: black;
         bottom: 4vh;
         left: 0;
         right: 0;
         margin: auto;
         border-radius: 8px;
-        border: white solid 1px;
-        font-weight: 600;
         cursor: pointer;
-        background-color: white;
         text-align: center;
         align-content: center;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #btnResumeAction:hover{
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
 }
 
@@ -226,23 +229,26 @@
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
-        color: black;
         font-size: 1.1em;
         position: absolute;
         width: 32vw;
         height: 5vh;
-        color: black;
         bottom: 4vh;
         left: 0;
         right: 0;
         margin: auto;
         border-radius: 8px;
-        border: white solid 1px;
-        font-weight: 600;
         cursor: pointer;
-        background-color: white;
         text-align: center;
         align-content: center;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #btnResumeAction:hover{
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
 }
 
@@ -352,23 +358,26 @@
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
-        color: black;
         font-size: 1.1em;
         position: absolute;
         width: 22vw;
         height: 5vh;
-        color: black;
         bottom: 4vh;
         left: 0;
         right: 0;
         margin: auto;
         border-radius: 8px;
-        border: white solid 1px;
-        font-weight: 600;
         cursor: pointer;
-        background-color: white;
         text-align: center;
         align-content: center;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #btnResumeAction:hover{
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
 }
 
@@ -478,23 +487,26 @@
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
-        color: black;
         font-size: 1.1em;
         position: absolute;
         width: 22vw;
         height: 5vh;
-        color: black;
         bottom: 4vh;
         left: 0;
         right: 0;
         margin: auto;
         border-radius: 8px;
-        border: white solid 1px;
-        font-weight: 600;
         cursor: pointer;
-        background-color: white;
         text-align: center;
         align-content: center;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #btnResumeAction:hover{
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
 }
 
@@ -602,21 +614,24 @@
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
-        color: black;
         font-size: 1.1em;
         position: absolute;
         width: 14vw;
         height: 5vh;
-        color: black;
         top: 70vh;
         left: 11vw;
         border-radius: 8px;
-        border: white solid 1px;
-        font-weight: 600;
         cursor: pointer;
-        background-color: white;
         text-align: center;
         align-content: center;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    #btnResumeAction:hover{
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
 
 }
@@ -720,25 +735,28 @@
 
 
     #btnResumeAction {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
         text-decoration: none;
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
-        color: black;
         font-size: 1.1em;
-        background-color: white;
         text-align: center;
         align-content: center;
         position: absolute;
         width: 14vw;
         height: 5vh;
-        color: black;
         top: 70vh;
         left: 11vw;
         border-radius: 8px;
-        border: white solid 1px;
-        font-weight: 600;
         cursor: pointer;
+    }
+    #btnResumeAction:hover{
+        background-color: white;
+        color: black;
+        border: white solid 1px;
     }
 
 }
